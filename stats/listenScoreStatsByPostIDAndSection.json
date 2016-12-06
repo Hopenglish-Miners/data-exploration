@@ -1,0 +1,2146 @@
+Loading data..
+Generating listenScoreStatsByPostIDAndSection..
+score_range          0   1-49  50-59  60-62  63-66  67-69  70-72  73-76  \
+postId section                                                            
+50     1           NaN    1.0    NaN    1.0    1.0    NaN    2.0    2.0   
+       2           NaN    1.0    1.0    2.0    2.0    NaN    4.0    5.0   
+       3           NaN    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+2093   1           NaN    2.0    1.0    NaN    NaN    2.0    1.0    1.0   
+       2           NaN    4.0    NaN    NaN    1.0    1.0    2.0    1.0   
+       3           NaN    3.0    NaN    NaN    NaN    1.0    1.0    1.0   
+       4           NaN    3.0    1.0    NaN    1.0    1.0    NaN    1.0   
+       5           NaN    1.0    1.0    NaN    NaN    1.0    3.0    1.0   
+3585   1           NaN    4.0    4.0    2.0    7.0    2.0    3.0    7.0   
+       2           NaN    5.0    5.0    NaN    2.0    1.0    2.0    3.0   
+       3           NaN    5.0    1.0    2.0    6.0    2.0    5.0    9.0   
+       4           1.0    7.0    3.0    1.0    2.0    3.0    3.0    5.0   
+       5           NaN    2.0    3.0    2.0    4.0    NaN    NaN    6.0   
+       6           NaN    3.0    3.0    NaN    3.0    1.0    1.0    5.0   
+       7           NaN    2.0    5.0    NaN    2.0    1.0    NaN    4.0   
+       8           NaN    4.0    2.0    2.0    4.0    2.0    2.0    6.0   
+       9           NaN    4.0    1.0    NaN    2.0    2.0    4.0    5.0   
+       10          NaN    4.0    NaN    1.0    4.0    1.0    2.0    4.0   
+       11          NaN    4.0    1.0    NaN    NaN    2.0    3.0    6.0   
+       12          NaN    5.0    1.0    3.0    3.0    1.0    4.0    4.0   
+       13          NaN    3.0    1.0    NaN    1.0    NaN    3.0    1.0   
+       14          NaN    4.0    NaN    3.0    1.0    1.0    2.0    NaN   
+       15          NaN    3.0    2.0    NaN    NaN    2.0    NaN    3.0   
+       16          NaN    3.0    NaN    1.0    2.0    1.0    1.0    2.0   
+       17          NaN    2.0    2.0    NaN    NaN    NaN    1.0    3.0   
+       18          NaN    3.0    1.0    NaN    NaN    NaN    NaN    1.0   
+       19          NaN    5.0    NaN    NaN    NaN    3.0    1.0    3.0   
+       20          NaN    3.0    2.0    1.0    3.0    1.0    1.0    3.0   
+       21          NaN    6.0    3.0    NaN    3.0    2.0    2.0    2.0   
+3589   1           1.0    1.0    2.0    NaN    NaN    2.0    2.0    1.0   
+       2           NaN    NaN    3.0    NaN    1.0    3.0    NaN    NaN   
+       3           NaN    5.0    2.0    NaN    NaN    NaN    1.0    4.0   
+       4           NaN    2.0    1.0    2.0    NaN    1.0    NaN    NaN   
+       5           NaN    1.0    1.0    1.0    NaN    1.0    NaN    1.0   
+3649   1           3.0    9.0    7.0    NaN    4.0    NaN    4.0    2.0   
+       2           3.0   11.0    2.0    1.0    2.0    1.0    2.0    3.0   
+       3           3.0   11.0    3.0    NaN    4.0    2.0    3.0    6.0   
+       4           3.0    4.0    4.0    2.0    2.0    1.0    6.0    6.0   
+       5           4.0   10.0    1.0    2.0    3.0    1.0    1.0    3.0   
+       6           2.0   11.0    4.0    1.0    6.0    4.0    3.0    7.0   
+       7           1.0    9.0    2.0    NaN    2.0    3.0    3.0    8.0   
+3693   1           1.0    3.0    NaN    NaN    1.0    4.0    NaN    1.0   
+       2           1.0    2.0    1.0    NaN    2.0    NaN    1.0    NaN   
+       3           1.0    5.0    NaN    3.0    NaN    2.0    2.0    5.0   
+       4           NaN    1.0    2.0    1.0    1.0    4.0    1.0    NaN   
+       5           NaN    1.0    NaN    2.0    1.0    3.0    1.0    1.0   
+       6           NaN    3.0    NaN    2.0    2.0    NaN    NaN    6.0   
+3711   1           NaN   49.0   25.0   11.0   15.0   14.0   23.0   28.0   
+       2           3.0   58.0   39.0   10.0   17.0   13.0   19.0   34.0   
+       3           2.0   41.0   17.0    7.0   22.0   12.0   11.0   14.0   
+       4           3.0   46.0   17.0    8.0   12.0   13.0   13.0   15.0   
+       5           3.0   15.0   19.0    5.0   10.0    6.0   12.0   12.0   
+       6           2.0   32.0   15.0    1.0   11.0   10.0   18.0   23.0   
+       7           3.0    5.0    6.0    3.0    4.0    3.0    5.0   20.0   
+3762   1           4.0    1.0    NaN    1.0    1.0    NaN    1.0    NaN   
+       2           3.0    2.0    3.0    1.0    NaN    3.0    1.0    2.0   
+       3           3.0    1.0    NaN    NaN    NaN    NaN    1.0    4.0   
+       4           4.0    1.0    1.0    NaN    3.0    NaN    NaN    2.0   
+3791   1           1.0    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       8           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       9           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+3913   1        1267.0  274.0  112.0   36.0   48.0   63.0   56.0   80.0   
+       2          52.0  326.0  107.0   46.0   60.0   59.0   71.0   93.0   
+       3          23.0  169.0   72.0   34.0   53.0   49.0   58.0   93.0   
+       4          22.0  140.0   65.0   33.0   63.0   45.0   56.0   86.0   
+       5           8.0  190.0   99.0   31.0   44.0   44.0   60.0   88.0   
+3940   1           NaN    3.0    1.0    2.0    NaN    NaN    2.0    NaN   
+       2           NaN    2.0    2.0    1.0    NaN    NaN    NaN    NaN   
+       3           NaN    2.0    NaN    1.0    1.0    1.0    NaN    NaN   
+       4           NaN    NaN    1.0    1.0    NaN    NaN    NaN    NaN   
+       5           NaN    4.0    2.0    NaN    NaN    1.0    NaN    1.0   
+       6           NaN    1.0    NaN    NaN    2.0    NaN    1.0    1.0   
+       7           NaN    1.0    1.0    NaN    NaN    2.0    NaN    1.0   
+       8           NaN    1.0    1.0    NaN    1.0    1.0    NaN    NaN   
+       9           NaN    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+       10          NaN    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       11          NaN    NaN    1.0    NaN    NaN    NaN    NaN    1.0   
+       12          NaN    NaN    NaN    NaN    2.0    NaN    NaN    NaN   
+       13          NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       14          NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       15          NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       16          NaN    NaN    NaN    NaN    NaN    NaN    1.0    1.0   
+       17          NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       18          NaN    2.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       19          NaN    2.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       20          NaN    2.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       21          NaN    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       22          NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       23          NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       24          NaN    1.0    1.0    NaN    NaN    NaN    NaN    1.0   
+       25          NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       26          NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       27          NaN    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+       28          NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+4013   1           2.0    2.0    1.0    NaN    NaN    1.0    1.0    1.0   
+       2           2.0    4.0    NaN    2.0    2.0    1.0    1.0    1.0   
+       3           2.0    1.0    2.0    2.0    1.0    NaN    NaN    1.0   
+       4           2.0    1.0    1.0    NaN    1.0    1.0    2.0    NaN   
+       5           2.0    3.0    1.0    NaN    1.0    NaN    1.0    1.0   
+4163   1           NaN    3.0    2.0    NaN    NaN    NaN    NaN    3.0   
+       2           1.0    2.0    NaN    1.0    NaN    1.0    1.0    1.0   
+       3           1.0    3.0    1.0    NaN    NaN    1.0    1.0    1.0   
+       4           1.0    2.0    NaN    NaN    NaN    1.0    NaN    1.0   
+       5           1.0    NaN    NaN    NaN    1.0    NaN    1.0    1.0   
+4165   1           5.0   43.0   21.0    5.0   10.0    2.0   11.0   17.0   
+4200   1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    1.0    1.0    1.0    1.0    NaN    NaN    1.0   
+       5           NaN    1.0    NaN    NaN    NaN    NaN    NaN    3.0   
+       6           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+4215   1           NaN    NaN    NaN    NaN    NaN    1.0    1.0    1.0   
+       2           NaN    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+       3           NaN    NaN    2.0    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       5           NaN    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       7           NaN    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+4220   1           NaN    4.0    5.0    NaN    2.0    1.0    7.0    7.0   
+       2           NaN    1.0    2.0    1.0    3.0    1.0    3.0    2.0   
+       3           NaN    3.0    2.0    NaN    5.0    2.0    4.0    2.0   
+       4           NaN    3.0    4.0    3.0    NaN    2.0    1.0    4.0   
+       5           NaN    2.0    3.0    3.0    4.0    2.0    NaN    4.0   
+       6           NaN    1.0    2.0    NaN    NaN    2.0    NaN    NaN   
+       7           NaN    2.0    1.0    NaN    NaN    1.0    NaN    2.0   
+       8           NaN    3.0    NaN    NaN    3.0    2.0    4.0    2.0   
+       9           NaN    1.0    2.0    NaN    3.0    2.0    1.0    6.0   
+       10          NaN    2.0    NaN    NaN    NaN    1.0    NaN    2.0   
+       11          NaN    2.0    NaN    NaN    1.0    NaN    2.0    5.0   
+       12          NaN    1.0    1.0    NaN    NaN    2.0    NaN    5.0   
+       13          NaN    2.0    3.0    1.0    1.0    NaN    1.0    2.0   
+       14          NaN    1.0    2.0    1.0    NaN    3.0    6.0    1.0   
+       15          NaN    4.0    5.0    NaN    4.0    3.0    2.0    5.0   
+       16          1.0    3.0    2.0    1.0    NaN    1.0    3.0    9.0   
+       17          NaN    1.0    1.0    1.0    4.0    1.0    1.0    1.0   
+       18          NaN    1.0    NaN    NaN    1.0    1.0    1.0    1.0   
+       19          NaN    NaN    1.0    NaN    NaN    1.0    1.0    1.0   
+       20          NaN    NaN    1.0    1.0    NaN    2.0    NaN    1.0   
+       21          NaN    NaN    NaN    NaN    1.0    NaN    1.0    2.0   
+       22          NaN    1.0    2.0    1.0    2.0    3.0    4.0    2.0   
+       23          NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       24          NaN    NaN    NaN    1.0    1.0    NaN    1.0    1.0   
+       25          NaN    2.0    NaN    1.0    NaN    1.0    1.0    4.0   
+       26          NaN    1.0    NaN    1.0    NaN    NaN    1.0    NaN   
+4332   1           1.0    NaN    NaN    NaN    NaN    NaN    2.0    1.0   
+       2           1.0    NaN    1.0    1.0    NaN    NaN    2.0    1.0   
+       3           1.0    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       4           1.0    1.0    NaN    NaN    1.0    1.0    1.0    1.0   
+       5           1.0    1.0    NaN    NaN    NaN    NaN    1.0    NaN   
+       6           1.0    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+4336   1           1.0    6.0    1.0    2.0    NaN    NaN    1.0    3.0   
+       2           1.0    8.0    3.0    NaN    2.0    2.0    NaN    1.0   
+       3           2.0    6.0    1.0    2.0    1.0    4.0    1.0    7.0   
+       4           1.0    9.0    1.0    NaN    1.0    1.0    NaN    4.0   
+       5           1.0    4.0    2.0    1.0    2.0    1.0    1.0    3.0   
+       6           2.0    4.0    NaN    1.0    1.0    1.0    1.0    2.0   
+       7           2.0    3.0    1.0    1.0    NaN    NaN    2.0    2.0   
+       8           1.0    3.0    4.0    NaN    4.0    NaN    3.0    2.0   
+       9           1.0    3.0    NaN    NaN    NaN    1.0    2.0    1.0   
+       10          1.0    3.0    1.0    NaN    1.0    2.0    NaN    NaN   
+       11          1.0    3.0    1.0    NaN    NaN    1.0    NaN    NaN   
+       12          1.0    3.0    NaN    NaN    2.0    1.0    1.0    NaN   
+       13          1.0    2.0    1.0    NaN    NaN    NaN    1.0    NaN   
+       14          1.0    3.0    NaN    NaN    NaN    NaN    2.0    NaN   
+       15          2.0    2.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       16          1.0    2.0    NaN    NaN    1.0    1.0    2.0    NaN   
+4424   1           NaN    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+       2           NaN    1.0    1.0    NaN    1.0    NaN    1.0    NaN   
+       3           NaN    NaN    3.0    1.0    NaN    NaN    NaN    NaN   
+       4           NaN    1.0    NaN    NaN    NaN    2.0    1.0    NaN   
+       5           NaN    NaN    1.0    2.0    NaN    NaN    1.0    1.0   
+       6           NaN    2.0    2.0    NaN    NaN    NaN    1.0    2.0   
+4457   1           2.0    2.0    3.0    NaN    2.0    NaN    NaN    6.0   
+       2           2.0    1.0    2.0    2.0    3.0    NaN    NaN    3.0   
+4522   1           3.0    NaN    NaN    NaN    NaN    1.0    NaN    1.0   
+       2           2.0    2.0    NaN    NaN    1.0    NaN    NaN    NaN   
+       3           2.0    1.0    NaN    NaN    NaN    NaN    1.0    1.0   
+       4           2.0    1.0    NaN    2.0    1.0    1.0    NaN    2.0   
+4561   1           2.0    NaN    NaN    NaN    NaN    1.0    1.0    1.0   
+       2           2.0    1.0    2.0    1.0    NaN    2.0    3.0    2.0   
+       3           NaN    2.0    NaN    NaN    1.0    1.0    1.0    1.0   
+       4           1.0    NaN    NaN    NaN    1.0    NaN    1.0    3.0   
+       5           1.0    3.0    2.0    1.0    NaN    2.0    1.0    4.0   
+       6           1.0    1.0    NaN    NaN    2.0    1.0    2.0    1.0   
+       7           1.0    NaN    1.0    NaN    NaN    NaN    NaN    1.0   
+       8           1.0    NaN    2.0    NaN    NaN    1.0    2.0    NaN   
+       9           1.0    NaN    1.0    1.0    1.0    1.0    2.0    1.0   
+       10          1.0    1.0    NaN    1.0    1.0    1.0    NaN    1.0   
+       11          1.0    NaN    1.0    1.0    NaN    1.0    NaN    1.0   
+       12          1.0    NaN    NaN    NaN    3.0    3.0    NaN    NaN   
+       13          1.0    1.0    1.0    1.0    NaN    NaN    1.0    2.0   
+       14          1.0    NaN    1.0    NaN    NaN    NaN    NaN    1.0   
+4802   1           NaN   18.0    6.0    1.0    6.0    6.0    3.0   12.0   
+       2           2.0    6.0    5.0    1.0    4.0    1.0    4.0    4.0   
+       3           1.0   10.0    2.0    2.0    3.0    3.0    3.0   10.0   
+       4           1.0   10.0    4.0    2.0    2.0    3.0    2.0    9.0   
+       5           2.0   14.0    3.0    NaN    3.0    4.0    4.0   10.0   
+       6           1.0   16.0    3.0    1.0    2.0    3.0    3.0    9.0   
+4968   1           NaN    1.0    NaN    1.0    NaN    1.0    1.0    NaN   
+       2           NaN    2.0    1.0    NaN    1.0    NaN    NaN    2.0   
+       3           NaN    1.0    1.0    NaN    1.0    2.0    NaN    NaN   
+       4           NaN    2.0    NaN    NaN    1.0    NaN    NaN    NaN   
+       5           NaN    1.0    NaN    NaN    1.0    NaN    NaN    3.0   
+4974   1           NaN    8.0    7.0    1.0    1.0    NaN    5.0    2.0   
+       2           NaN    5.0    7.0    2.0    6.0    1.0    1.0    8.0   
+       3           NaN   13.0    3.0    2.0    2.0    1.0    4.0    6.0   
+       4           NaN    7.0    6.0    2.0    2.0    1.0    3.0    1.0   
+       5           NaN    8.0    7.0    1.0    3.0    1.0    3.0    3.0   
+       6           NaN    2.0    3.0    NaN    2.0    3.0    NaN    3.0   
+       7           NaN    3.0    2.0    1.0    NaN    3.0    NaN    4.0   
+       8           NaN    5.0    2.0    2.0    1.0    1.0    2.0    3.0   
+       9           NaN    4.0    3.0    3.0    2.0    NaN    2.0    1.0   
+       10          1.0    5.0    4.0    1.0    3.0    1.0    NaN    1.0   
+       11          NaN    2.0    3.0    NaN    2.0    NaN    1.0    2.0   
+       12          NaN    2.0    2.0    3.0    1.0    2.0    3.0    1.0   
+       13          NaN    2.0    NaN    1.0    NaN    NaN    NaN    3.0   
+       14          1.0    2.0    2.0    1.0    3.0    1.0    5.0    1.0   
+5021   1           NaN    1.0    1.0    NaN    2.0    2.0    NaN    1.0   
+5085   1           NaN    3.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           1.0    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       3           1.0    NaN    NaN    1.0    1.0    NaN    1.0    NaN   
+       4           1.0    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       5           1.0    NaN    NaN    NaN    1.0    NaN    1.0    NaN   
+       6           1.0    3.0    NaN    1.0    NaN    1.0    NaN    NaN   
+       7           1.0    NaN    NaN    NaN    1.0    1.0    NaN    NaN   
+       8           1.0    NaN    2.0    NaN    NaN    NaN    NaN    1.0   
+       9           1.0    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+5186   1           3.0   12.0    5.0    5.0    3.0    3.0    3.0    5.0   
+       2           NaN   27.0    7.0    4.0    9.0   11.0    9.0   16.0   
+       3           1.0   22.0   13.0    3.0    7.0    2.0    4.0   17.0   
+5194   1           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       6           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+5433   1           1.0    9.0    9.0    2.0    3.0    1.0    3.0   10.0   
+       2           1.0    6.0    2.0    NaN    7.0    3.0    2.0   11.0   
+       3           1.0   11.0    4.0    1.0    3.0    3.0    6.0   11.0   
+5793   1           NaN    6.0    3.0    2.0    1.0    4.0    NaN    3.0   
+       2           NaN    4.0    3.0    1.0    1.0    2.0    2.0    4.0   
+       3           NaN    2.0    1.0    2.0    NaN    1.0    2.0    3.0   
+5797   1           1.0    4.0    NaN    NaN    3.0    NaN    NaN    2.0   
+       2           NaN    8.0    3.0    NaN    NaN    1.0    3.0    4.0   
+       3           NaN    8.0    3.0    1.0    1.0    2.0    1.0    1.0   
+       4           NaN    7.0    2.0    3.0    1.0    1.0    NaN    2.0   
+       5           NaN    7.0    NaN    1.0    NaN    2.0    3.0    1.0   
+5806   1           2.0   21.0    7.0    4.0    3.0    5.0    5.0    6.0   
+       2           4.0   10.0    7.0    5.0    3.0    3.0    2.0    5.0   
+5845   1           NaN    1.0    2.0    2.0    2.0    1.0    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    3.0    NaN    2.0    NaN   
+       3           NaN    1.0    NaN    1.0    NaN    NaN    1.0    1.0   
+       4           NaN    NaN    1.0    NaN    NaN    NaN    2.0    4.0   
+       5           NaN    1.0    NaN    NaN    NaN    NaN    1.0    2.0   
+       6           NaN    2.0    NaN    NaN    1.0    NaN    2.0    NaN   
+       7           1.0    NaN    NaN    1.0    NaN    NaN    1.0    2.0   
+       8           1.0    1.0    NaN    1.0    NaN    1.0    NaN    NaN   
+       9           1.0    NaN    NaN    NaN    NaN    NaN    1.0    1.0   
+5881   1           3.0   13.0    6.0    2.0    7.0    3.0    4.0   11.0   
+       2           3.0    9.0    8.0    NaN    5.0    4.0    4.0    9.0   
+5895   1           NaN    2.0    1.0    NaN    2.0    NaN    1.0    NaN   
+       2           NaN    1.0    1.0    NaN    NaN    NaN    NaN    3.0   
+       3           NaN    1.0    3.0    NaN    NaN    1.0    1.0    NaN   
+       4           NaN    NaN    1.0    1.0    1.0    NaN    1.0    1.0   
+       5           NaN    1.0    NaN    1.0    2.0    1.0    NaN    1.0   
+       6           NaN    1.0    1.0    NaN    NaN    NaN    NaN    1.0   
+6061   1           2.0    6.0    7.0    4.0    6.0    5.0   12.0    8.0   
+       2           2.0    6.0    5.0    1.0    4.0    4.0    6.0    4.0   
+       3           2.0    6.0   10.0    7.0    6.0    6.0    7.0    5.0   
+6151   1           1.0    2.0    1.0    1.0    NaN    NaN    1.0    1.0   
+       2           2.0    NaN    3.0    1.0    NaN    1.0    2.0    3.0   
+       3           1.0    3.0    1.0    NaN    NaN    1.0    NaN    4.0   
+6420   1           NaN    2.0    NaN    NaN    1.0    NaN    1.0    1.0   
+       2           NaN    1.0    2.0    NaN    NaN    NaN    NaN    1.0   
+6460   1           NaN    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       2           NaN    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       3           NaN    2.0    NaN    NaN    NaN    NaN    NaN    NaN   
+6521   1           NaN    1.0    2.0    NaN    NaN    2.0    1.0    2.0   
+       2           NaN    3.0    1.0    1.0    2.0    NaN    2.0    5.0   
+       3           NaN    4.0    2.0    NaN    1.0    1.0    2.0    4.0   
+6781   1           2.0    2.0    1.0    1.0    NaN    NaN    NaN    3.0   
+       2           2.0    2.0    1.0    NaN    1.0    2.0    NaN    1.0   
+       3           2.0    3.0    1.0    NaN    2.0    NaN    2.0    NaN   
+       4           2.0    4.0    1.0    NaN    1.0    NaN    2.0    2.0   
+       5           2.0    4.0    1.0    NaN    1.0    2.0    1.0    5.0   
+       6           2.0    4.0    NaN    NaN    2.0    2.0    NaN    NaN   
+       7           2.0    3.0    NaN    NaN    1.0    NaN    2.0    2.0   
+7126   1           3.0   10.0    4.0    5.0    6.0    3.0    3.0    6.0   
+       2           2.0    9.0    4.0    2.0    4.0    5.0    5.0    7.0   
+       3           2.0   10.0    7.0    NaN    4.0    2.0    3.0    3.0   
+7130   1           4.0   10.0    4.0    4.0    1.0    5.0    3.0    7.0   
+       2           1.0   17.0    5.0    2.0    5.0    1.0    3.0    2.0   
+       3           1.0   23.0   12.0    3.0    5.0    4.0    7.0    9.0   
+       4           2.0   16.0    4.0    NaN    3.0    4.0    5.0    9.0   
+       5           1.0   18.0    6.0    3.0    7.0    1.0    9.0   10.0   
+       6           2.0    8.0    3.0    4.0    2.0    NaN    4.0    4.0   
+       7           2.0   15.0    6.0    1.0    2.0    1.0    1.0    3.0   
+       8           2.0   11.0    8.0    1.0    2.0    5.0    6.0    4.0   
+7184   1           NaN    4.0    2.0    NaN    2.0    2.0    1.0    1.0   
+       2           1.0    2.0    1.0    NaN    1.0    NaN    2.0    3.0   
+       3           NaN    9.0    1.0    NaN    3.0    1.0    3.0    1.0   
+       4           NaN    2.0    2.0    NaN    3.0    3.0    2.0    1.0   
+8199   1           NaN    1.0    1.0    NaN    NaN    NaN    NaN    2.0   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       4           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+8200   1           3.0    1.0    2.0    2.0    1.0    NaN    NaN    4.0   
+       2           3.0    1.0    3.0    NaN    1.0    NaN    NaN    2.0   
+       3           2.0    2.0    3.0    NaN    2.0    NaN    3.0    4.0   
+8441   1           1.0    2.0    1.0    NaN    NaN    1.0    NaN    1.0   
+       2           1.0    2.0    3.0    1.0    NaN    NaN    2.0    NaN   
+8456   1           NaN    6.0    5.0    NaN    5.0    2.0    6.0   12.0   
+       2           NaN    5.0    1.0    4.0    4.0    NaN    2.0    2.0   
+       3           1.0    5.0    1.0    1.0    1.0    4.0    1.0    6.0   
+       4           3.0    5.0    3.0    NaN    NaN    1.0    2.0    2.0   
+       5           2.0    2.0    3.0    NaN    NaN    NaN    2.0    2.0   
+       6           2.0    3.0    1.0    1.0    1.0    NaN    1.0    3.0   
+       7           2.0    4.0    1.0    1.0    2.0    1.0    2.0    6.0   
+       8           2.0    6.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       9           3.0    4.0    3.0    1.0    1.0    NaN    1.0    3.0   
+       10          3.0    3.0    NaN    NaN    2.0    NaN    1.0    3.0   
+       11          3.0    2.0    1.0    NaN    NaN    1.0    NaN    2.0   
+       12          1.0    1.0    2.0    NaN    NaN    1.0    3.0    4.0   
+       13          1.0    4.0    3.0    NaN    NaN    4.0    2.0    2.0   
+       14          1.0    6.0    NaN    2.0    1.0    1.0    NaN    4.0   
+       15          1.0    6.0    3.0    1.0    NaN    NaN    NaN    6.0   
+8457   1           4.0    1.0    4.0    NaN    1.0    5.0    6.0    6.0   
+       2           4.0    6.0    3.0    1.0    1.0    1.0    2.0    8.0   
+       3           4.0    3.0    1.0    NaN    1.0    5.0    2.0    5.0   
+       4           4.0    3.0    2.0    NaN    1.0    3.0    1.0    2.0   
+       5           4.0    NaN    2.0    1.0    1.0    1.0    2.0    4.0   
+       6           3.0    1.0    2.0    3.0    1.0    2.0    2.0    3.0   
+8545   1           1.0    5.0   13.0    3.0    3.0    7.0    8.0   10.0   
+       2           1.0   12.0   12.0    7.0    7.0    6.0    7.0   12.0   
+       3           1.0   18.0   12.0    1.0    7.0    6.0    6.0    7.0   
+       4           2.0   34.0   10.0    6.0    4.0   10.0    6.0   16.0   
+       5           1.0   20.0   21.0    7.0    7.0    7.0    9.0   16.0   
+       6           1.0   17.0   11.0    6.0   11.0    5.0    3.0   14.0   
+8547   1           NaN   17.0   11.0    3.0    4.0    8.0    7.0   13.0   
+       2           1.0   14.0    8.0    4.0    8.0    4.0   10.0    7.0   
+       3           2.0    8.0    5.0    5.0    1.0    5.0   11.0   10.0   
+8699   1           NaN    2.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    1.0    NaN    1.0    1.0    NaN    1.0   
+8700   1           2.0    1.0    2.0    1.0    NaN    NaN    NaN    1.0   
+       2           2.0    5.0    2.0    1.0    1.0    NaN    NaN    4.0   
+       3           2.0    3.0    3.0    NaN    1.0    NaN    1.0    4.0   
+8701   1           NaN    2.0    2.0    1.0    1.0    3.0    1.0    2.0   
+       2           NaN    3.0    1.0    1.0    2.0    NaN    NaN    2.0   
+       3           NaN    1.0    NaN    1.0    NaN    1.0    NaN    1.0   
+       4           NaN    2.0    NaN    NaN    1.0    NaN    NaN    2.0   
+       5           NaN    1.0    NaN    1.0    NaN    NaN    1.0    NaN   
+8717   1           1.0    3.0    4.0    NaN    1.0    1.0    NaN    2.0   
+       2           1.0    2.0    2.0    2.0    1.0    1.0    1.0    1.0   
+       3           1.0    3.0    2.0    1.0    NaN    1.0    1.0    NaN   
+       4           1.0    1.0    2.0    2.0    1.0    NaN    1.0    2.0   
+       5           1.0    2.0    NaN    1.0    1.0    NaN    NaN    1.0   
+8854   1           1.0    2.0    1.0    NaN    2.0    NaN    NaN    NaN   
+       2           1.0    1.0    NaN    NaN    NaN    2.0    NaN    2.0   
+       3           1.0    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+8859   1           1.0   10.0    9.0    2.0    NaN    3.0    8.0    4.0   
+       2           1.0   18.0   10.0    4.0    2.0    3.0    1.0    3.0   
+       3           2.0   22.0    7.0    3.0    5.0    3.0    4.0    3.0   
+       4           1.0   11.0    4.0    2.0    5.0    1.0    4.0    9.0   
+8860   1           NaN    2.0    1.0    NaN    1.0    2.0    NaN    2.0   
+       2           1.0    3.0    3.0    NaN    1.0    NaN    1.0    5.0   
+8917   1           1.0    2.0    1.0    1.0    1.0    NaN    2.0    1.0   
+       2           1.0    2.0    1.0    1.0    1.0    NaN    NaN    2.0   
+       3           1.0    2.0    1.0    1.0    NaN    2.0    2.0    1.0   
+8918   1           NaN    2.0    1.0    NaN    NaN    1.0    NaN    2.0   
+       2           NaN    2.0    NaN    NaN    2.0    NaN    NaN    NaN   
+       3           NaN    2.0    2.0    NaN    NaN    1.0    2.0    3.0   
+       4           NaN    1.0    1.0    2.0    1.0    NaN    2.0    1.0   
+       5           NaN    NaN    1.0    NaN    NaN    NaN    NaN    1.0   
+       6           NaN    NaN    1.0    1.0    1.0    NaN    NaN    NaN   
+8919   1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    2.0   
+       2           NaN    NaN    NaN    NaN    1.0    NaN    NaN    2.0   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+9091   1           4.0    4.0    5.0    NaN    5.0    2.0    5.0    6.0   
+       2           4.0    6.0    1.0    5.0    3.0    1.0    2.0    4.0   
+       3           4.0    6.0    4.0    4.0    2.0    4.0    5.0    7.0   
+       4           4.0    3.0    2.0    1.0    3.0    2.0    7.0    3.0   
+9092   1           2.0    3.0    NaN    1.0    NaN    2.0    1.0    3.0   
+       2           2.0    2.0    3.0    2.0    2.0    2.0    NaN    2.0   
+9097   1           1.0    9.0    4.0    1.0    2.0    NaN    2.0    4.0   
+       2           1.0    7.0    2.0    1.0    2.0    1.0    3.0    6.0   
+9578   1           NaN    3.0    2.0    NaN    4.0    NaN    1.0    6.0   
+       2           NaN    3.0    NaN    4.0    NaN    1.0    3.0    5.0   
+       3           NaN    8.0    4.0    NaN    5.0    1.0    3.0    3.0   
+       4           NaN    7.0    5.0    1.0    2.0    NaN    1.0    2.0   
+       5           NaN    7.0    6.0    1.0    1.0    2.0    1.0    3.0   
+9580   1           3.0    3.0    1.0    NaN    3.0    2.0    3.0    5.0   
+       2           3.0    3.0    1.0    NaN    1.0    1.0    NaN    5.0   
+       3           3.0    4.0    3.0    NaN    2.0    1.0    1.0    8.0   
+9582   1           3.0    1.0    6.0    NaN    3.0    1.0    1.0    NaN   
+       2           3.0    5.0    5.0    1.0    2.0    1.0    2.0    3.0   
+       3           3.0    1.0    6.0    1.0    1.0    NaN    2.0    3.0   
+       4           3.0    5.0    2.0    NaN    NaN    1.0    NaN    3.0   
+9584   1           2.0    1.0    NaN    NaN    NaN    NaN    2.0    NaN   
+       2           2.0    2.0    NaN    NaN    NaN    NaN    2.0    1.0   
+       3           2.0    NaN    1.0    1.0    2.0    NaN    NaN    2.0   
+       4           NaN    2.0    NaN    NaN    1.0    1.0    NaN    NaN   
+9625   1           3.0    1.0    1.0    NaN    NaN    NaN    1.0    1.0   
+       2           3.0    4.0    1.0    NaN    3.0    1.0    3.0    4.0   
+       3           2.0    4.0    4.0    2.0    4.0    2.0    2.0    3.0   
+       4           2.0    4.0    1.0    NaN    2.0    4.0    1.0    3.0   
+       5           4.0    5.0    7.0    1.0    3.0    3.0    3.0    7.0   
+       6           3.0    4.0    2.0    2.0    3.0    3.0    3.0    5.0   
+9626   1           2.0    4.0    1.0    NaN    NaN    1.0    2.0    1.0   
+       2           3.0    2.0    NaN    NaN    1.0    1.0    3.0    4.0   
+       3           2.0    4.0    2.0    1.0    2.0    NaN    2.0    3.0   
+       4           1.0    7.0    1.0    2.0    2.0    2.0    3.0    3.0   
+       5           1.0    6.0    NaN    2.0    2.0    1.0    5.0    5.0   
+9751   1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    1.0    NaN    1.0    NaN    NaN    1.0   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       5           NaN    1.0    NaN    NaN    1.0    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+       7           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       8           NaN    1.0    NaN    NaN    1.0    1.0    NaN    NaN   
+9769   1           2.0    1.0    NaN    2.0    NaN    1.0    1.0    NaN   
+       2           2.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           2.0    NaN    NaN    NaN    1.0    NaN    1.0    2.0   
+       4           2.0    1.0    NaN    NaN    1.0    1.0    NaN    3.0   
+       5           1.0    1.0    NaN    NaN    NaN    2.0    NaN    4.0   
+       6           1.0    1.0    1.0    NaN    NaN    NaN    NaN    1.0   
+       7           2.0    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+9770   1           6.0   16.0    5.0    4.0    1.0    7.0    2.0   11.0   
+       2           1.0   21.0    8.0    1.0    8.0    5.0    4.0    8.0   
+9771   1           2.0   10.0   13.0    1.0    4.0    5.0    3.0    3.0   
+       2           2.0   20.0    7.0    2.0    3.0    1.0    6.0    8.0   
+       3           3.0   19.0   13.0    4.0    8.0    4.0    3.0    6.0   
+9850   1           NaN    4.0    NaN    NaN    1.0    NaN    2.0    NaN   
+       2           NaN    3.0    2.0    NaN    NaN    NaN    1.0    2.0   
+       3           NaN    2.0    NaN    NaN    NaN    NaN    1.0    3.0   
+       4           NaN    2.0    NaN    NaN    1.0    NaN    1.0    NaN   
+       5           NaN    4.0    NaN    NaN    1.0    1.0    NaN    NaN   
+       6           NaN    2.0    2.0    1.0    NaN    NaN    1.0    1.0   
+9851   1           2.0   10.0    4.0    5.0    4.0    5.0    7.0   13.0   
+       2           1.0   17.0   12.0    3.0    4.0    4.0    6.0    9.0   
+       3           2.0   22.0    3.0    6.0    6.0    1.0    5.0    6.0   
+9916   1           2.0    1.0    NaN    NaN    NaN    NaN    2.0    1.0   
+       2           2.0    1.0    NaN    NaN    NaN    NaN    NaN    2.0   
+       3           2.0    NaN    3.0    NaN    NaN    NaN    1.0    2.0   
+9918   1           NaN    4.0    NaN    1.0    NaN    1.0    NaN    2.0   
+       2           NaN    NaN    1.0    1.0    1.0    1.0    NaN    NaN   
+       3           NaN    2.0    NaN    NaN    NaN    NaN    2.0    3.0   
+10019  1           2.0   21.0   12.0    4.0    2.0    7.0    5.0    3.0   
+       2           3.0   21.0    7.0    4.0    2.0    4.0    7.0    7.0   
+       3           2.0   30.0    5.0    3.0    7.0    5.0    2.0    4.0   
+10020  1           1.0    1.0    3.0    NaN    1.0    NaN    1.0    3.0   
+       2           1.0    7.0    5.0    3.0    6.0    1.0    NaN    8.0   
+       3           1.0    2.0    NaN    NaN    1.0    NaN    2.0    2.0   
+10021  1           NaN    1.0    1.0    NaN    1.0    1.0    1.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+10022  1           1.0    2.0    1.0    2.0    3.0    1.0    6.0    7.0   
+       2           1.0    6.0    7.0    1.0    NaN    1.0    4.0    3.0   
+10023  1           1.0    3.0    4.0    1.0    5.0    1.0    4.0    3.0   
+       2           1.0    1.0    2.0    2.0    2.0    5.0    2.0    2.0   
+       3           1.0    1.0    1.0    1.0    2.0    2.0    3.0    3.0   
+       4           1.0    2.0    1.0    1.0    1.0    3.0    4.0    2.0   
+       5           1.0    3.0    4.0    NaN    2.0    NaN    2.0    4.0   
+       6           1.0    NaN    3.0    NaN    2.0    NaN    2.0    4.0   
+10026  1           3.0   19.0    5.0    1.0    4.0    5.0    3.0   11.0   
+       2           3.0   10.0    7.0    1.0    5.0    3.0    6.0    5.0   
+       3           3.0   13.0    7.0    4.0    3.0    4.0    4.0    4.0   
+10073  1           1.0    1.0    2.0    1.0    1.0    NaN    1.0    2.0   
+       2           1.0    2.0    6.0    1.0    3.0    NaN    1.0    2.0   
+       3           1.0    1.0    2.0    1.0    1.0    1.0    1.0    1.0   
+       4           1.0    1.0    3.0    1.0    1.0    1.0    1.0    2.0   
+       5           1.0    1.0    NaN    NaN    1.0    NaN    1.0    NaN   
+10074  1           NaN    8.0    2.0    1.0    2.0    1.0    NaN    4.0   
+       2           1.0    5.0    2.0    NaN    2.0    1.0    5.0    6.0   
+       3           NaN    5.0    NaN    NaN    3.0    NaN    NaN    4.0   
+       4           NaN    7.0    4.0    2.0    3.0    2.0    1.0    1.0   
+       5           NaN    4.0    NaN    2.0    2.0    1.0    1.0    3.0   
+10177  1           1.0    3.0    3.0    NaN    4.0    2.0    3.0    5.0   
+       2           1.0    NaN    3.0    1.0    2.0    5.0    2.0    5.0   
+       3           1.0    4.0    4.0    1.0    1.0    1.0    1.0    4.0   
+       4           1.0    7.0    2.0    2.0    3.0    3.0    3.0    5.0   
+       5           1.0    3.0    NaN    NaN    1.0    4.0    6.0    8.0   
+       6           1.0    4.0    2.0    NaN    4.0    3.0    NaN    5.0   
+       7           1.0    2.0    3.0    4.0    1.0    3.0    1.0    4.0   
+10201  1           1.0    NaN    NaN    NaN    NaN    NaN    NaN    2.0   
+       2           NaN    1.0    NaN    NaN    NaN    1.0    1.0    1.0   
+       3           NaN    1.0    NaN    NaN    1.0    NaN    1.0    1.0   
+       4           1.0    2.0    2.0    1.0    1.0    NaN    NaN    2.0   
+       5           1.0    NaN    2.0    NaN    NaN    2.0    1.0    NaN   
+       6           1.0    2.0    1.0    2.0    NaN    2.0    1.0    NaN   
+       7           NaN    1.0    3.0    1.0    3.0    1.0    NaN    NaN   
+       8           NaN    4.0    1.0    1.0    1.0    3.0    2.0    NaN   
+       9           1.0    NaN    NaN    NaN    NaN    2.0    NaN    1.0   
+       10          NaN    1.0    2.0    1.0    NaN    NaN    NaN    2.0   
+       11          NaN    2.0    1.0    NaN    NaN    1.0    3.0    3.0   
+       12          NaN    2.0    1.0    2.0    1.0    2.0    1.0    1.0   
+10249  1           1.0    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       2           1.0    NaN    2.0    NaN    NaN    NaN    NaN    1.0   
+       3           1.0    1.0    1.0    NaN    2.0    1.0    NaN    NaN   
+       4           1.0    NaN    2.0    1.0    NaN    NaN    NaN    NaN   
+       5           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           1.0    NaN    NaN    NaN    NaN    NaN    NaN    2.0   
+       7           1.0    1.0    NaN    1.0    NaN    NaN    1.0    2.0   
+       8           1.0    NaN    1.0    NaN    1.0    1.0    NaN    NaN   
+       9           1.0    NaN    1.0    NaN    1.0    1.0    NaN    1.0   
+       10          1.0    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+10250  1           NaN   22.0   11.0    8.0    4.0    5.0    7.0    9.0   
+       2           NaN   33.0    6.0    4.0   10.0    6.0    2.0    4.0   
+       3           NaN   24.0   11.0    4.0    7.0    2.0    6.0    6.0   
+       4           NaN   12.0   12.0    3.0    5.0    4.0    5.0    7.0   
+       5           NaN   19.0    4.0    6.0    3.0    7.0    7.0    9.0   
+10257  1           NaN   17.0    9.0    4.0    4.0    4.0    6.0    4.0   
+       2           1.0   15.0    6.0    2.0    2.0    3.0    3.0    1.0   
+       3           2.0   17.0    5.0    2.0    2.0    4.0    3.0    4.0   
+       4           3.0   18.0    5.0    1.0    3.0    2.0    2.0    5.0   
+       5           1.0   13.0    8.0    2.0    4.0    4.0    7.0    9.0   
+10301  1           NaN    1.0    3.0    1.0    1.0    NaN    2.0    1.0   
+       2           NaN    1.0    NaN    2.0    NaN    1.0    NaN    2.0   
+       3           NaN    2.0    1.0    NaN    2.0    NaN    1.0    NaN   
+       4           NaN    1.0    1.0    NaN    1.0    1.0    NaN    NaN   
+       5           NaN    2.0    NaN    NaN    1.0    2.0    NaN    NaN   
+       6           NaN    NaN    1.0    NaN    NaN    1.0    NaN    NaN   
+       7           NaN    1.0    NaN    NaN    NaN    NaN    2.0    1.0   
+       8           NaN    1.0    2.0    1.0    NaN    1.0    NaN    1.0   
+       9           NaN    2.0    NaN    NaN    2.0    NaN    1.0    1.0   
+       10          NaN    NaN    1.0    1.0    NaN    1.0    NaN    NaN   
+       11          NaN    1.0    1.0    1.0    NaN    1.0    NaN    1.0   
+       12          NaN    2.0    NaN    2.0    NaN    NaN    NaN    1.0   
+       13          NaN    1.0    1.0    2.0    NaN    NaN    NaN    NaN   
+10303  1           2.0   12.0    4.0    4.0    4.0    3.0    6.0    4.0   
+       2           2.0   17.0    6.0    4.0    6.0    3.0    1.0    9.0   
+       3           2.0   16.0    5.0    4.0    5.0    6.0    2.0    6.0   
+       4           1.0   13.0    6.0    1.0    5.0    6.0    5.0   11.0   
+10308  1           NaN    4.0    3.0    1.0    1.0    1.0    2.0    5.0   
+       2           NaN    6.0    1.0    NaN    1.0    2.0    2.0    4.0   
+       3           NaN    7.0    4.0    NaN    2.0    1.0    NaN    NaN   
+       4           NaN    3.0    1.0    1.0    2.0    3.0    2.0    4.0   
+       5           NaN    5.0    1.0    3.0    1.0    1.0    NaN    5.0   
+10455  1           1.0    1.0    NaN    1.0    NaN    NaN    NaN    NaN   
+       2           1.0    2.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           1.0    NaN    1.0    NaN    1.0    1.0    NaN    1.0   
+       4           1.0    NaN    1.0    NaN    2.0    NaN    NaN    4.0   
+       5           1.0    NaN    1.0    NaN    1.0    1.0    1.0    1.0   
+       6           1.0    3.0    NaN    NaN    NaN    NaN    NaN    NaN   
+10457  1           NaN    1.0    1.0    2.0    1.0    3.0    1.0    5.0   
+       2           NaN    2.0    1.0    1.0    NaN    1.0    2.0    1.0   
+       3           NaN    1.0    1.0    1.0    1.0    NaN    3.0    3.0   
+       4           NaN    1.0    1.0    1.0    NaN    1.0    2.0    5.0   
+       5           NaN    1.0    2.0    1.0    1.0    1.0    1.0    5.0   
+       6           NaN    2.0    1.0    1.0    NaN    1.0    1.0    3.0   
+10459  1           NaN    1.0    1.0    NaN    NaN    NaN    1.0    2.0   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       3           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    1.0    1.0    NaN    NaN    NaN    NaN   
+       7           NaN    1.0    1.0    NaN    NaN    NaN    1.0    NaN   
+       8           NaN    1.0    1.0    NaN    NaN    NaN    NaN    2.0   
+       9           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       10          NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       11          NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       12          NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+10535  1           2.0    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       2           2.0    1.0    1.0    NaN    1.0    2.0    NaN    2.0   
+       3           2.0    1.0    1.0    NaN    NaN    1.0    NaN    3.0   
+       4           2.0    1.0    NaN    NaN    NaN    NaN    2.0    1.0   
+       5           2.0    NaN    1.0    NaN    1.0    NaN    NaN    2.0   
+       6           2.0    NaN    1.0    NaN    1.0    NaN    1.0    1.0   
+10537  1           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    1.0    NaN    NaN    1.0    NaN   
+       5           NaN    NaN    NaN    NaN    2.0    NaN    NaN    NaN   
+10540  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+10543  1           3.0    5.0    2.0    1.0    3.0    1.0    3.0    2.0   
+       2           2.0    7.0    2.0    2.0    1.0    7.0    1.0    6.0   
+       3           1.0    7.0    1.0    1.0    1.0    2.0    NaN    1.0   
+       4           2.0    1.0    2.0    1.0    1.0    1.0    2.0    NaN   
+       5           2.0    2.0    2.0    NaN    NaN    NaN    1.0    3.0   
+10546  1           2.0    NaN    1.0    NaN    NaN    NaN    1.0    1.0   
+       2           2.0    1.0    NaN    NaN    NaN    1.0    NaN    2.0   
+       3           2.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+10564  1           5.0   13.0    7.0    NaN    1.0    2.0    3.0    3.0   
+10565  1           4.0   13.0    6.0    5.0    6.0    4.0    4.0    9.0   
+       2           2.0   33.0   10.0    3.0    5.0    9.0    2.0    7.0   
+       3           4.0   22.0    7.0    NaN    4.0    5.0    5.0    7.0   
+       4           3.0   12.0    8.0    2.0    3.0    2.0    2.0    7.0   
+10568  1           2.0    2.0    NaN    NaN    NaN    NaN    1.0    1.0   
+       2           2.0    3.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       3           2.0    3.0    2.0    NaN    1.0    1.0    2.0    1.0   
+       4           2.0    3.0    NaN    NaN    2.0    NaN    1.0    NaN   
+       5           2.0    2.0    1.0    1.0    NaN    NaN    1.0    1.0   
+       6           2.0    1.0    NaN    NaN    1.0    NaN    NaN    2.0   
+10570  1           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+10573  1           1.0    2.0    1.0    NaN    NaN    NaN    1.0    2.0   
+       2           1.0    2.0    NaN    NaN    NaN    NaN    NaN    1.0   
+10586  1           2.0    2.0    1.0    2.0    NaN    5.0    1.0    2.0   
+10589  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       8           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       9           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+10858  1           2.0    NaN    NaN    NaN    NaN    NaN    NaN    2.0   
+       2           2.0    NaN    1.0    NaN    NaN    2.0    1.0    4.0   
+       3           2.0    NaN    2.0    NaN    1.0    1.0    NaN    2.0   
+10860  1           NaN    2.0    5.0    1.0    3.0    1.0    2.0    3.0   
+       2           NaN    2.0    2.0    NaN    NaN    1.0    3.0    1.0   
+       3           1.0    2.0    3.0    NaN    1.0    1.0    NaN    1.0   
+11385  1           NaN    2.0    2.0    1.0    NaN    2.0    1.0    1.0   
+       2           1.0    2.0    NaN    NaN    NaN    1.0    1.0    1.0   
+       3           NaN    2.0    NaN    1.0    NaN    NaN    1.0    1.0   
+       4           NaN    1.0    NaN    NaN    NaN    NaN    1.0    1.0   
+       5           1.0    NaN    NaN    NaN    2.0    NaN    NaN    2.0   
+11387  1           NaN    1.0    1.0    NaN    NaN    NaN    3.0    NaN   
+11389  1           4.0    3.0    NaN    2.0    1.0    NaN    NaN    2.0   
+       2           3.0    2.0    2.0    1.0    1.0    3.0    NaN    3.0   
+11399  1           1.0    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       2           1.0    NaN    1.0    NaN    NaN    1.0    NaN    NaN   
+       3           1.0    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       4           1.0    NaN    NaN    NaN    1.0    NaN    1.0    NaN   
+       5           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+11406  1           2.0    NaN    NaN    NaN    NaN    NaN    NaN    2.0   
+       2           3.0    NaN    1.0    NaN    NaN    NaN    1.0    3.0   
+       3           2.0    2.0    3.0    NaN    3.0    NaN    1.0    4.0   
+       4           2.0    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+11429  1           NaN    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    1.0    NaN    1.0   
+       5           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+11580  1           NaN    1.0    3.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    1.0    1.0   
+11618  1           NaN    1.0    1.0    NaN    NaN    NaN    1.0    NaN   
+       2           NaN    2.0    1.0    1.0    NaN    NaN    NaN    NaN   
+       3           NaN    2.0    1.0    NaN    NaN    1.0    NaN    NaN   
+       4           NaN    2.0    NaN    NaN    2.0    NaN    NaN    NaN   
+11621  1           1.0    2.0    2.0    3.0    1.0    NaN    1.0    NaN   
+       2           1.0    3.0    2.0    2.0    NaN    NaN    NaN    NaN   
+       3           2.0    2.0    3.0    NaN    NaN    NaN    NaN    3.0   
+       4           2.0    4.0    1.0    NaN    NaN    NaN    NaN    1.0   
+11624  1           NaN    NaN    NaN    NaN    1.0    1.0    NaN    1.0   
+11628  1           NaN    NaN    NaN    NaN    NaN    NaN    2.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       3           NaN    NaN    2.0    NaN    NaN    NaN    NaN    NaN   
+11630  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+11695  1           NaN    NaN    NaN    NaN    NaN    NaN    1.0    1.0   
+       2           NaN    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    NaN    1.0    NaN    1.0    1.0   
+       5           NaN    NaN    NaN    NaN    NaN    1.0    1.0    NaN   
+11698  1           2.0   27.0    5.0    2.0    6.0    5.0    5.0    6.0   
+       2           1.0   12.0    6.0    4.0    7.0    6.0    6.0    6.0   
+       3           3.0   11.0    7.0    4.0    6.0    6.0    NaN    7.0   
+11700  1           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       8           NaN    NaN    2.0    NaN    1.0    NaN    NaN    NaN   
+11853  1           1.0    NaN    NaN    NaN    1.0    1.0    NaN    NaN   
+11855  1           1.0   26.0   12.0    1.0    3.0    2.0    4.0    4.0   
+11857  1           1.0    3.0    2.0    1.0    1.0    1.0    1.0    3.0   
+       2           1.0    NaN    NaN    NaN    1.0    2.0    1.0    1.0   
+       3           1.0    NaN    7.0    NaN    NaN    3.0    5.0    2.0   
+       4           1.0    1.0    NaN    1.0    NaN    1.0    1.0    2.0   
+11859  1           1.0    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           1.0    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       3           1.0    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+11861  1           NaN    2.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           1.0    1.0    NaN    NaN    NaN    1.0    1.0    NaN   
+       3           NaN    1.0    NaN    1.0    NaN    NaN    NaN    1.0   
+11863  1           2.0    7.0    2.0    1.0    2.0    1.0    2.0    2.0   
+       2           2.0    6.0    6.0    2.0    NaN    3.0    NaN    2.0   
+12060  1           2.0    NaN    NaN    1.0    NaN    1.0    1.0    2.0   
+       2           2.0    NaN    1.0    1.0    2.0    1.0    1.0    1.0   
+       3           1.0    1.0    1.0    1.0    1.0    NaN    1.0    1.0   
+       4           1.0    1.0    2.0    NaN    1.0    NaN    1.0    1.0   
+       5           1.0    NaN    1.0    1.0    2.0    2.0    1.0    1.0   
+12062  1           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       2           1.0    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       3           1.0    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    1.0    NaN    1.0   
+12127  1           2.0    1.0    NaN    NaN    1.0    2.0    2.0    2.0   
+       2           2.0    5.0    1.0    NaN    2.0    1.0    1.0    2.0   
+       3           2.0    4.0    2.0    NaN    NaN    NaN    NaN    4.0   
+12129  1           NaN    3.0    NaN    NaN    1.0    NaN    NaN    NaN   
+       2           1.0    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       3           1.0    NaN    NaN    NaN    NaN    1.0    1.0    1.0   
+       4           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           1.0    NaN    1.0    NaN    NaN    NaN    1.0    1.0   
+       6           1.0    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+12134  1           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       2           NaN    1.0    1.0    NaN    1.0    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    1.0    1.0    NaN   
+       5           NaN    1.0    NaN    1.0    NaN    NaN    1.0    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+12214  1           3.0   15.0    6.0    3.0    1.0    1.0    1.0    5.0   
+12216  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+12218  1           1.0   31.0    5.0    5.0    6.0    NaN    1.0    3.0   
+       2           2.0   23.0    2.0    3.0    4.0    1.0    5.0    2.0   
+12220  1           1.0    3.0    1.0    1.0    1.0    2.0    3.0    1.0   
+       2           1.0    3.0    2.0    NaN    NaN    NaN    3.0    2.0   
+       3           2.0    1.0    3.0    NaN    NaN    1.0    NaN    2.0   
+12222  1           2.0    1.0    1.0    NaN    NaN    NaN    1.0    2.0   
+       2           2.0    NaN    2.0    NaN    NaN    NaN    2.0    NaN   
+       3           1.0    1.0    2.0    NaN    NaN    1.0    1.0    2.0   
+       4           NaN    1.0    1.0    NaN    1.0    2.0    1.0    1.0   
+12224  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+12311  1           NaN    1.0    NaN    NaN    2.0    2.0    NaN    NaN   
+       2           NaN    1.0    1.0    1.0    NaN    NaN    2.0    NaN   
+       3           NaN    2.0    1.0    NaN    1.0    NaN    NaN    1.0   
+12312  1           NaN    2.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    1.0    NaN    1.0    NaN   
+12316  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+12318  1           NaN    NaN    3.0    NaN    NaN    1.0    NaN    1.0   
+       2           NaN    2.0    1.0    1.0    NaN    1.0    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    3.0    NaN    1.0   
+       4           NaN    1.0    NaN    1.0    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    3.0    1.0    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    2.0    1.0    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       8           NaN    NaN    NaN    1.0    NaN    NaN    1.0    NaN   
+12593  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    2.0   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    2.0    NaN   
+       4           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+12594  1           1.0    1.0    3.0    NaN    NaN    1.0    1.0    NaN   
+       2           1.0    3.0    1.0    1.0    1.0    1.0    NaN    1.0   
+12597  1           3.0    1.0    NaN    1.0    NaN    1.0    2.0    4.0   
+       2           3.0    2.0    2.0    1.0    1.0    1.0    1.0    5.0   
+       3           3.0    2.0    1.0    NaN    3.0    3.0    NaN    8.0   
+       4           3.0    2.0    1.0    1.0    1.0    NaN    2.0    2.0   
+       5           3.0    2.0    NaN    1.0    2.0    2.0    1.0    2.0   
+       6           3.0    2.0    1.0    NaN    1.0    3.0    2.0    1.0   
+12601  1           1.0    1.0    1.0    NaN    2.0    2.0    1.0    3.0   
+       2           1.0    2.0    NaN    NaN    NaN    NaN    NaN    1.0   
+12603  1           2.0    NaN    NaN    NaN    2.0    1.0    1.0    3.0   
+       2           2.0    NaN    NaN    NaN    NaN    2.0    NaN    4.0   
+       3           2.0    1.0    NaN    1.0    NaN    NaN    1.0    3.0   
+       4           2.0    1.0    1.0    NaN    NaN    NaN    NaN    2.0   
+       5           2.0    NaN    NaN    NaN    1.0    1.0    2.0    4.0   
+       6           2.0    1.0    NaN    NaN    1.0    1.0    2.0    2.0   
+12605  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    NaN    NaN    1.0    NaN    NaN    1.0    NaN   
+       3           NaN    NaN    NaN    1.0    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       7           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       8           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+12665  1           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+12667  1           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    1.0    1.0    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       4           NaN    NaN    1.0    NaN    NaN    1.0    NaN    NaN   
+12669  1           NaN    1.0    NaN    NaN    1.0    NaN    1.0    NaN   
+       2           NaN    1.0    NaN    NaN    1.0    1.0    NaN    NaN   
+       3           NaN    1.0    2.0    NaN    NaN    NaN    NaN    1.0   
+       4           NaN    1.0    NaN    2.0    NaN    NaN    NaN    NaN   
+       5           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       7           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+12671  1           NaN    1.0    1.0    1.0    NaN    NaN    1.0    NaN   
+       2           1.0    1.0    1.0    NaN    1.0    NaN    NaN    NaN   
+       3           NaN    2.0    3.0    NaN    1.0    NaN    1.0    NaN   
+       4           NaN    3.0    NaN    1.0    1.0    NaN    NaN    1.0   
+       5           NaN    NaN    1.0    1.0    1.0    NaN    NaN    NaN   
+12673  1           NaN    7.0    2.0    1.0    2.0    2.0    1.0    3.0   
+       2           NaN    3.0    6.0    1.0    1.0    1.0    4.0    4.0   
+       3           NaN    3.0    6.0    2.0    3.0    1.0    2.0    2.0   
+       4           NaN   10.0    3.0    NaN    4.0    NaN    2.0    2.0   
+       5           NaN    7.0    2.0    1.0    2.0    2.0    1.0    4.0   
+12675  1           NaN    4.0    6.0    3.0    1.0    2.0    1.0    3.0   
+       2           NaN    1.0    2.0    NaN    6.0    3.0    4.0    NaN   
+       3           NaN    6.0    4.0    NaN    NaN    2.0    3.0    NaN   
+       4           NaN    4.0    4.0    NaN    3.0    1.0    2.0    3.0   
+       5           NaN   11.0    5.0    2.0    2.0    1.0    NaN    2.0   
+       6           NaN    2.0    5.0    3.0    1.0    2.0    2.0    4.0   
+       7           NaN    6.0    7.0    NaN    1.0    1.0    1.0    2.0   
+       8           1.0    4.0    2.0    2.0    1.0    1.0    1.0    1.0   
+12740  1           1.0    2.0    NaN    NaN    2.0    NaN    1.0    1.0   
+12908  1           2.0    2.0    1.0    3.0    2.0    NaN    2.0    NaN   
+       2           NaN    2.0    1.0    NaN    1.0    1.0    NaN    3.0   
+       3           1.0    2.0    NaN    NaN    1.0    NaN    NaN    1.0   
+12910  1           NaN    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+       2           NaN    NaN    1.0    NaN    1.0    1.0    1.0    1.0   
+       3           NaN    2.0    NaN    NaN    2.0    1.0    NaN    1.0   
+       4           NaN    NaN    NaN    1.0    NaN    1.0    1.0    1.0   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    1.0    3.0   
+12912  1           1.0    1.0    NaN    NaN    1.0    NaN    1.0    1.0   
+       2           1.0    1.0    NaN    NaN    NaN    3.0    NaN    1.0   
+       3           1.0    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       4           1.0    NaN    NaN    NaN    1.0    NaN    2.0    1.0   
+       5           1.0    1.0    NaN    NaN    1.0    NaN    1.0    1.0   
+       6           1.0    NaN    NaN    1.0    1.0    1.0    NaN    NaN   
+       7           1.0    NaN    1.0    NaN    1.0    NaN    NaN    2.0   
+12943  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+12947  1           2.0    NaN    NaN    NaN    NaN    NaN    1.0    1.0   
+       2           1.0    2.0    NaN    NaN    1.0    2.0    2.0    NaN   
+       3           2.0    NaN    NaN    2.0    NaN    1.0    NaN    2.0   
+       4           1.0    NaN    1.0    NaN    NaN    1.0    1.0    NaN   
+12949  1           NaN    2.0    1.0    1.0    1.0    1.0    NaN    1.0   
+       2           1.0    NaN    3.0    1.0    NaN    NaN    NaN    1.0   
+       3           1.0    2.0    NaN    NaN    2.0    NaN    1.0    NaN   
+12951  1           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           1.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           1.0    NaN    NaN    NaN    1.0    NaN    1.0    2.0   
+       4           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           1.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       7           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       8           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       9           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+12984  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+       3           NaN    1.0    1.0    NaN    NaN    1.0    NaN    NaN   
+       4           NaN    NaN    NaN    1.0    NaN    1.0    NaN    2.0   
+12986  1           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    1.0    1.0    1.0    NaN    2.0   
+       3           NaN    3.0    1.0    NaN    2.0    1.0    NaN    NaN   
+       4           NaN    2.0    2.0    NaN    NaN    1.0    2.0    NaN   
+13002  1           2.0    NaN    1.0    NaN    1.0    NaN    1.0    NaN   
+       2           2.0    NaN    NaN    NaN    NaN    NaN    NaN    2.0   
+       3           2.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       4           1.0    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           1.0    1.0    NaN    NaN    1.0    1.0    NaN    3.0   
+       6           1.0    1.0    1.0    NaN    NaN    NaN    1.0    2.0   
+13004  1           1.0    NaN    1.0    NaN    NaN    4.0    1.0    1.0   
+       2           1.0    1.0    1.0    NaN    NaN    NaN    2.0    1.0   
+       3           1.0    1.0    NaN    NaN    NaN    1.0    NaN    1.0   
+       4           1.0    2.0    NaN    NaN    NaN    NaN    1.0    1.0   
+13010  1           4.0    2.0    1.0    NaN    1.0    1.0    1.0    1.0   
+       2           2.0    4.0    NaN    NaN    1.0    NaN    1.0    4.0   
+       3           2.0    1.0    1.0    NaN    1.0    2.0    1.0    4.0   
+13102  1           NaN    NaN    NaN    NaN    1.0    NaN    2.0    1.0   
+       2           NaN    1.0    2.0    NaN    NaN    1.0    1.0    1.0   
+       3           NaN    1.0    2.0    1.0    1.0    NaN    NaN    NaN   
+13103  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13104  1           NaN    NaN    NaN    2.0    NaN    NaN    NaN    1.0   
+       2           NaN    2.0    1.0    NaN    1.0    1.0    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    1.0    1.0    1.0    NaN   
+13183  1           NaN    NaN    NaN    NaN    NaN    NaN    2.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+13185  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+13187  1           1.0    1.0    4.0    2.0    3.0    4.0    3.0    6.0   
+       2           1.0    4.0    5.0    3.0    5.0    3.0    2.0    5.0   
+13188  1           NaN    3.0    3.0    NaN    NaN    NaN    1.0    NaN   
+       2           1.0    2.0    3.0    NaN    NaN    1.0    NaN    1.0   
+13290  1           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           1.0    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+       4           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13292  1           2.0    3.0    NaN    1.0    2.0    3.0    3.0    4.0   
+       2           3.0    NaN    3.0    2.0    1.0    1.0    2.0    5.0   
+       3           3.0    2.0    1.0    NaN    6.0    4.0    2.0    7.0   
+       4           3.0    3.0    7.0    1.0    3.0    5.0    2.0    1.0   
+13294  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+13296  1           NaN    1.0    NaN    NaN    NaN    1.0    1.0    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+13298  1           1.0    NaN    NaN    NaN    NaN    NaN    2.0    NaN   
+       2           1.0    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+13300  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+13302  1           NaN    4.0    1.0    NaN    NaN    1.0    NaN    NaN   
+       2           NaN    2.0    3.0    NaN    NaN    1.0    NaN    NaN   
+       3           NaN    1.0    2.0    NaN    1.0    NaN    NaN    NaN   
+13354  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+13388  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    1.0    NaN    1.0    NaN   
+       3           NaN    NaN    NaN    1.0    NaN    NaN    1.0    NaN   
+       4           NaN    NaN    NaN    NaN    1.0    2.0    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       6           NaN    NaN    NaN    NaN    1.0    NaN    NaN    1.0   
+13390  1           NaN    1.0    NaN    1.0    1.0    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    1.0    1.0    1.0    NaN   
+13392  1           NaN    NaN    1.0    1.0    NaN    1.0    NaN    2.0   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+13394  1           NaN    1.0    NaN    NaN    1.0    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    1.0    NaN    NaN    NaN   
+13498  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       3           NaN    NaN    1.0    NaN    1.0    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       8           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       9           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       10          NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13500  1           NaN    2.0    1.0    NaN    1.0    NaN    NaN    NaN   
+       2           NaN    2.0    1.0    NaN    NaN    NaN    NaN    1.0   
+       3           NaN    1.0    1.0    NaN    NaN    NaN    1.0    1.0   
+13506  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13507  1           1.0    4.0    NaN    1.0    2.0    1.0    NaN    1.0   
+       2           1.0    5.0    2.0    1.0    NaN    NaN    NaN    NaN   
+13564  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    1.0    NaN    NaN    NaN    1.0    NaN    NaN   
+13566  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+13568  1           NaN    NaN    NaN    NaN    1.0    1.0    NaN    NaN   
+       2           NaN    NaN    NaN    2.0    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    1.0    NaN    1.0    NaN    1.0   
+13570  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+13572  1           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+13574  1           NaN    4.0    1.0    NaN    NaN    1.0    NaN    NaN   
+       2           NaN    5.0    NaN    1.0    NaN    NaN    NaN    NaN   
+       3           NaN    5.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    3.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    3.0    NaN    NaN    NaN    NaN    1.0    1.0   
+13701  1           NaN    NaN    NaN    NaN    NaN    1.0    1.0    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13703  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13705  1           1.0    NaN    NaN    NaN    NaN    NaN    1.0    NaN   
+       2           1.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           1.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       4           1.0    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+13722  1           1.0    1.0    1.0    NaN    NaN    NaN    2.0    2.0   
+       2           2.0    NaN    2.0    2.0    NaN    1.0    3.0    3.0   
+       3           2.0    NaN    1.0    1.0    NaN    1.0    2.0    5.0   
+13724  1           NaN    NaN    2.0    NaN    NaN    1.0    NaN    1.0   
+       2           NaN    NaN    NaN    2.0    1.0    NaN    1.0    NaN   
+       3           NaN    NaN    1.0    NaN    1.0    NaN    NaN    1.0   
+       4           NaN    NaN    1.0    NaN    NaN    NaN    NaN    2.0   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+13726  1           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+       4           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+13729  1           NaN    1.0    NaN    NaN    NaN    1.0    NaN    1.0   
+       2           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+13731  1           NaN    1.0    NaN    NaN    1.0    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    1.0    NaN   
+       4           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+13736  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14026  1           NaN    2.0    NaN    NaN    NaN    NaN    1.0    NaN   
+       2           NaN    2.0    NaN    NaN    NaN    1.0    NaN    NaN   
+14028  1           NaN    NaN    2.0    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14031  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14033  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14192  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14193  1           NaN    2.0    1.0    NaN    NaN    1.0    NaN    1.0   
+       2           NaN    1.0    1.0    NaN    NaN    1.0    1.0    1.0   
+       3           NaN    1.0    NaN    NaN    1.0    1.0    NaN    1.0   
+14194  1           NaN    1.0    1.0    NaN    NaN    1.0    NaN    NaN   
+       2           NaN    1.0    2.0    NaN    1.0    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    1.0    NaN    1.0    NaN    1.0   
+14208  1           NaN    NaN    1.0    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    1.0    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    2.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    1.0    NaN    NaN    NaN    NaN    NaN    1.0   
+14292  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14293  1           1.0    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           1.0    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           1.0    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       4           1.0    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14294  1           NaN    1.0    NaN    1.0    NaN    NaN    NaN    NaN   
+       2           NaN    2.0    NaN    NaN    NaN    NaN    1.0    NaN   
+       3           NaN    NaN    NaN    NaN    1.0    NaN    2.0    NaN   
+       4           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+14391  1           NaN    NaN    NaN    NaN    NaN    1.0    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+14392  1           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    1.0    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    1.0    NaN    NaN    NaN   
+14393  1           1.0    NaN    1.0    NaN    NaN    NaN    NaN    1.0   
+       2           1.0    NaN    NaN    1.0    NaN    NaN    NaN    NaN   
+       3           NaN    1.0    1.0    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    2.0    NaN    NaN    NaN    1.0    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14394  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    1.0   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14706  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14707  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14708  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       7           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+14712  1           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       2           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       3           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       4           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       5           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+       6           NaN    NaN    NaN    NaN    NaN    NaN    NaN    NaN   
+
+score_range     77-79  80-84  85-89  90-100  <-1  Incomplete  
+postId section                                                
+50     1          3.0    9.0   12.0    69.0  NaN        18.0  
+       2          6.0    9.0    5.0    61.0  NaN        22.0  
+       3          NaN    7.0    8.0    76.0  NaN        25.0  
+2093   1          1.0    4.0    5.0    49.0  NaN         8.0  
+       2          1.0    1.0    5.0    49.0  NaN         9.0  
+       3          2.0    NaN    4.0    51.0  NaN        11.0  
+       4          1.0    6.0    8.0    40.0  NaN        12.0  
+       5          1.0    6.0    8.0    36.0  NaN        16.0  
+3585   1          3.0   15.0   38.0   193.0  NaN        48.0  
+       2          6.0   14.0   18.0   214.0  NaN        56.0  
+       3          7.0   18.0   26.0   181.0  NaN        64.0  
+       4          3.0   12.0   19.0   195.0  NaN        72.0  
+       5          4.0   10.0   17.0   202.0  NaN        76.0  
+       6          2.0   11.0   18.0   196.0  NaN        83.0  
+       7          2.0    8.0   26.0   188.0  NaN        88.0  
+       8          5.0   16.0   18.0   175.0  NaN        90.0  
+       9          5.0    8.0   15.0   182.0  NaN        98.0  
+       10         7.0   16.0   25.0   161.0  NaN       101.0  
+       11         3.0   16.0   23.0   161.0  NaN       107.0  
+       12         7.0   13.0   30.0   142.0  NaN       113.0  
+       13         3.0   10.0   26.0   161.0  NaN       117.0  
+       14         4.0   12.0   21.0   157.0  NaN       121.0  
+       15         2.0   14.0   21.0   154.0  NaN       125.0  
+       16         2.0   11.0   14.0   160.0  NaN       129.0  
+       17         5.0    7.0   14.0   158.0  NaN       134.0  
+       18         5.0    4.0   14.0   161.0  NaN       137.0  
+       19         3.0    9.0   22.0   137.0  NaN       143.0  
+       20         1.0    6.0   19.0   138.0  NaN       148.0  
+       21         2.0   12.0   14.0   128.0  NaN       152.0  
+3589   1          1.0    5.0    8.0    24.0  NaN         9.0  
+       2          3.0    3.0    8.0    23.0  NaN        12.0  
+       3          NaN    2.0    5.0    25.0  NaN        12.0  
+       4          2.0    3.0    3.0    28.0  NaN        14.0  
+       5          1.0    4.0    4.0    28.0  NaN        14.0  
+3649   1          7.0    9.0   15.0    71.0  NaN        16.0  
+       2          8.0    9.0   12.0    72.0  NaN        21.0  
+       3          6.0   14.0   13.0    60.0  NaN        22.0  
+       4          3.0    9.0   15.0    65.0  NaN        27.0  
+       5          6.0    8.0   11.0    65.0  NaN        32.0  
+       6          7.0    9.0   19.0    40.0  NaN        34.0  
+       7          4.0    6.0   15.0    58.0  NaN        36.0  
+3693   1          2.0    6.0    8.0    86.0  NaN        10.0  
+       2          2.0   10.0    7.0    83.0  NaN        13.0  
+       3          4.0    7.0   14.0    63.0  NaN        16.0  
+       4          3.0    4.0   11.0    76.0  NaN        18.0  
+       5          3.0    8.0   21.0    63.0  NaN        18.0  
+       6          2.0    5.0   12.0    71.0  NaN        19.0  
+3711   1         28.0   60.0   89.0   285.0  NaN       141.0  
+       2         24.0   47.0   77.0   260.0  NaN       167.0  
+       3         17.0   50.0   65.0   317.0  NaN       193.0  
+       4         18.0   55.0   61.0   288.0  NaN       219.0  
+       5         16.0   38.0   58.0   333.0  NaN       241.0  
+       6         19.0   58.0   66.0   250.0  NaN       263.0  
+       7         25.0   38.0   68.0   308.0  NaN       280.0  
+3762   1          3.0    7.0   11.0    62.0  NaN         5.0  
+       2          3.0    4.0    9.0    58.0  NaN         7.0  
+       3          NaN    5.0   14.0    56.0  NaN        12.0  
+       4          1.0    6.0    8.0    57.0  NaN        13.0  
+3791   1          NaN    1.0    NaN    10.0  NaN         4.0  
+       2          NaN    NaN    NaN    12.0  NaN         4.0  
+       3          NaN    1.0    2.0     9.0  NaN         4.0  
+       4          NaN    NaN    NaN    12.0  NaN         4.0  
+       5          NaN    NaN    NaN    12.0  NaN         4.0  
+       6          NaN    1.0    NaN    11.0  NaN         4.0  
+       7          NaN    NaN    1.0    12.0  NaN         4.0  
+       8          NaN    NaN    1.0    12.0  NaN         4.0  
+       9          NaN    NaN    1.0    11.0  NaN         5.0  
+3913   1         94.0  205.0  320.0  1220.0  NaN         NaN  
+       2         90.0  193.0  271.0  1153.0  NaN      1254.0  
+       3         83.0  169.0  284.0  1252.0  NaN      1436.0  
+       4         86.0  156.0  249.0  1193.0  NaN      1581.0  
+       5         67.0  146.0  227.0  1044.0  NaN      1727.0  
+3940   1          NaN    1.0    NaN    13.0  NaN         3.0  
+       2          NaN    NaN    2.0    15.0  NaN         3.0  
+       3          1.0    NaN    2.0    14.0  NaN         3.0  
+       4          NaN    1.0    4.0    15.0  NaN         3.0  
+       5          NaN    1.0    2.0    11.0  NaN         3.0  
+       6          1.0    1.0    1.0    13.0  NaN         4.0  
+       7          1.0    4.0    2.0     9.0  NaN         4.0  
+       8          NaN    2.0    2.0    13.0  NaN         4.0  
+       9          2.0    1.0    3.0    13.0  NaN         5.0  
+       10         1.0    2.0    2.0    12.0  NaN         6.0  
+       11         1.0    2.0    1.0    13.0  NaN         6.0  
+       12         NaN    1.0    5.0    11.0  NaN         6.0  
+       13         NaN    1.0    2.0    15.0  NaN         6.0  
+       14         2.0    2.0    NaN    13.0  NaN         7.0  
+       15         NaN    1.0    2.0    14.0  NaN         7.0  
+       16         1.0    1.0    1.0    13.0  NaN         7.0  
+       17         NaN    NaN    3.0    13.0  NaN         8.0  
+       18         1.0    NaN    2.0    12.0  NaN         8.0  
+       19         NaN    1.0    2.0    11.0  NaN         8.0  
+       20         NaN    2.0    3.0     9.0  NaN         8.0  
+       21         NaN    1.0    1.0    13.0  NaN         8.0  
+       22         1.0    NaN    1.0    13.0  NaN         9.0  
+       23         NaN    NaN    1.0    14.0  NaN         9.0  
+       24         NaN    1.0    2.0    10.0  NaN         9.0  
+       25         NaN    1.0    2.0    10.0  NaN        10.0  
+       26         NaN    NaN    4.0    10.0  NaN        10.0  
+       27         NaN    1.0    NaN    12.0  NaN        11.0  
+       28         NaN    NaN    NaN    13.0  NaN        11.0  
+4013   1          2.0    5.0    4.0    34.0  NaN         6.0  
+       2          2.0    2.0    3.0    31.0  NaN         8.0  
+       3          1.0    3.0    4.0    34.0  NaN         8.0  
+       4          4.0    3.0    4.0    31.0  NaN         9.0  
+       5          NaN    2.0    9.0    30.0  NaN         9.0  
+4163   1          2.0    3.0    8.0    68.0  NaN        11.0  
+       2          1.0    5.0   10.0    65.0  NaN        12.0  
+       3          2.0    5.0    7.0    64.0  NaN        14.0  
+       4          1.0    7.0   15.0    56.0  NaN        16.0  
+       5          3.0    4.0   11.0    60.0  NaN        18.0  
+4165   1         18.0   16.0   38.0   125.0  NaN        73.0  
+4200   1          2.0    2.0    1.0    28.0  NaN         3.0  
+       2          2.0    4.0    5.0    21.0  NaN         5.0  
+       3          2.0    3.0    NaN    27.0  NaN         5.0  
+       4          1.0    1.0    NaN    24.0  NaN         7.0  
+       5          NaN    NaN    1.0    26.0  NaN         7.0  
+       6          NaN    1.0    1.0    26.0  NaN         9.0  
+4215   1          1.0    3.0    7.0    26.0  NaN         7.0  
+       2          1.0    2.0    6.0    27.0  NaN         9.0  
+       3          1.0    5.0    4.0    26.0  NaN         9.0  
+       4          NaN    3.0    9.0    24.0  NaN         9.0  
+       5          1.0    NaN    4.0    30.0  NaN        11.0  
+       6          NaN    NaN    5.0    30.0  NaN        12.0  
+       7          NaN    2.0    3.0    29.0  NaN        12.0  
+4220   1          6.0   20.0   28.0   104.0  NaN        22.0  
+       2         12.0   20.0   25.0   111.0  NaN        25.0  
+       3          4.0   13.0   21.0   125.0  NaN        25.0  
+       4          4.0    9.0   18.0   128.0  NaN        30.0  
+       5          3.0   11.0   25.0   117.0  NaN        32.0  
+       6          4.0    8.0   11.0   142.0  NaN        36.0  
+       7          1.0   10.0   10.0   138.0  NaN        41.0  
+       8          4.0    9.0   19.0   118.0  NaN        42.0  
+       9          4.0    7.0   10.0   122.0  NaN        48.0  
+       10         4.0    5.0   16.0   121.0  NaN        55.0  
+       11         1.0    6.0    9.0   124.0  NaN        56.0  
+       12         4.0   13.0   17.0   105.0  NaN        58.0  
+       13         1.0    7.0   16.0   110.0  NaN        62.0  
+       14         3.0   11.0   10.0   104.0  NaN        64.0  
+       15         6.0   11.0   23.0    74.0  NaN        69.0  
+       16         1.0    7.0   12.0    93.0  NaN        73.0  
+       17         2.0   12.0   11.0    98.0  NaN        73.0  
+       18         2.0    6.0   10.0   108.0  NaN        75.0  
+       19         3.0    8.0    6.0   108.0  NaN        77.0  
+       20         6.0    3.0   15.0    99.0  NaN        78.0  
+       21         1.0   10.0    1.0   111.0  NaN        79.0  
+       22         1.0    9.0   15.0    86.0  NaN        80.0  
+       23         NaN    6.0   16.0   101.0  NaN        82.0  
+       24         NaN    5.0   10.0   101.0  NaN        86.0  
+       25         2.0    4.0    9.0    93.0  NaN        89.0  
+       26         1.0    4.0   12.0    93.0  NaN        93.0  
+4332   1          1.0    NaN   10.0    32.0  NaN         2.0  
+       2          1.0    5.0    5.0    30.0  NaN         2.0  
+       3          1.0    4.0    2.0    37.0  NaN         3.0  
+       4          1.0    3.0    5.0    31.0  NaN         3.0  
+       5          1.0    3.0    5.0    34.0  NaN         3.0  
+       6          2.0    4.0    8.0    30.0  NaN         3.0  
+4336   1          4.0    3.0    8.0    52.0  NaN        12.0  
+       2          2.0    3.0   10.0    47.0  NaN        14.0  
+       3          2.0    5.0    7.0    39.0  NaN        16.0  
+       4          1.0    9.0   10.0    38.0  NaN        18.0  
+       5          1.0    6.0   11.0    39.0  NaN        21.0  
+       6          1.0    7.0    8.0    42.0  NaN        23.0  
+       7          1.0    7.0   11.0    39.0  NaN        24.0  
+       8          4.0    6.0    7.0    34.0  NaN        25.0  
+       9          2.0    4.0    7.0    45.0  NaN        27.0  
+       10         1.0    7.0    2.0    46.0  NaN        29.0  
+       11         1.0    1.0    8.0    47.0  NaN        30.0  
+       12         1.0    3.0    1.0    48.0  NaN        32.0  
+       13         1.0    9.0    6.0    40.0  NaN        32.0  
+       14         2.0    4.0    4.0    44.0  NaN        33.0  
+       15         NaN    NaN    7.0    46.0  NaN        36.0  
+       16         1.0    3.0    9.0    36.0  NaN        37.0  
+4424   1          NaN    NaN    2.0    22.0  NaN         8.0  
+       2          NaN    1.0    NaN    21.0  NaN         8.0  
+       3          NaN    1.0    4.0    17.0  NaN         8.0  
+       4          2.0    1.0    2.0    17.0  NaN         8.0  
+       5          NaN    1.0    3.0    16.0  NaN         9.0  
+       6          NaN    NaN    1.0    16.0  NaN        10.0  
+4457   1          3.0    5.0    5.0    52.0  NaN        10.0  
+       2          1.0    7.0   12.0    44.0  NaN        13.0  
+4522   1          NaN    3.0    7.0    29.0  NaN         9.0  
+       2          1.0    3.0    5.0    30.0  NaN         9.0  
+       3          NaN    1.0    4.0    33.0  NaN        10.0  
+       4          3.0    4.0    2.0    24.0  NaN        11.0  
+4561   1          3.0    8.0   10.0    46.0  NaN         9.0  
+       2          4.0    8.0    9.0    35.0  NaN        12.0  
+       3          1.0    6.0    6.0    46.0  NaN        16.0  
+       4          3.0    3.0    6.0    46.0  NaN        17.0  
+       5          2.0    5.0    8.0    34.0  NaN        18.0  
+       6          1.0    2.0    7.0    44.0  NaN        19.0  
+       7          2.0    4.0   10.0    41.0  NaN        21.0  
+       8          2.0    2.0    8.0    42.0  NaN        21.0  
+       9          3.0    1.0   10.0    37.0  NaN        22.0  
+       10         1.0    1.0    5.0    43.0  NaN        25.0  
+       11         2.0    3.0    9.0    37.0  NaN        25.0  
+       12         1.0    4.0    2.0    41.0  NaN        26.0  
+       13         NaN    2.0    3.0    41.0  NaN        28.0  
+       14         1.0    2.0    4.0    41.0  NaN        30.0  
+4802   1          8.0   17.0   31.0   207.0  NaN        48.0  
+       2          7.0   18.0   27.0   227.0  NaN        57.0  
+       3         16.0   18.0   36.0   191.0  NaN        68.0  
+       4          6.0    9.0   28.0   212.0  NaN        75.0  
+       5          8.0   17.0   42.0   173.0  NaN        83.0  
+       6          9.0   17.0   34.0   178.0  NaN        87.0  
+4968   1          2.0    3.0    6.0    66.0  NaN         7.0  
+       2          NaN    3.0    7.0    61.0  NaN        11.0  
+       3          NaN    7.0    9.0    56.0  NaN        11.0  
+       4          NaN    9.0    3.0    60.0  NaN        13.0  
+       5          NaN    2.0   15.0    51.0  NaN        15.0  
+4974   1          5.0   13.0   23.0   126.0  NaN        17.0  
+       2          3.0   12.0   17.0   125.0  NaN        21.0  
+       3          3.0   10.0   22.0   114.0  NaN        28.0  
+       4          6.0   10.0   18.0   120.0  NaN        32.0  
+       5          1.0   10.0   13.0   122.0  NaN        36.0  
+       6          2.0    6.0   10.0   140.0  NaN        37.0  
+       7          4.0   10.0   26.0   118.0  NaN        37.0  
+       8          6.0    6.0   19.0   122.0  NaN        39.0  
+       9          6.0    8.0   16.0   123.0  NaN        40.0  
+       10         5.0    6.0   10.0   129.0  NaN        42.0  
+       11         4.0    7.0   11.0   133.0  NaN        43.0  
+       12         2.0    5.0    9.0   130.0  NaN        48.0  
+       13         NaN    4.0    7.0   142.0  NaN        49.0  
+       14         3.0   10.0   27.0    99.0  NaN        53.0  
+5021   1          NaN    2.0    7.0    41.0  NaN         5.0  
+5085   1          NaN    2.0    3.0    10.0  NaN         4.0  
+       2          2.0    2.0    3.0    10.0  NaN         4.0  
+       3          NaN    1.0    2.0    12.0  NaN         4.0  
+       4          NaN    2.0    1.0    13.0  NaN         4.0  
+       5          NaN    1.0    3.0    11.0  NaN         5.0  
+       6          NaN    NaN    1.0    11.0  NaN         5.0  
+       7          NaN    1.0    1.0    13.0  NaN         5.0  
+       8          NaN    NaN    2.0    12.0  NaN         5.0  
+       9          NaN    1.0    1.0    13.0  NaN         5.0  
+5186   1          9.0   26.0   58.0   358.0  NaN        97.0  
+       2         15.0   50.0   77.0   234.0  NaN       128.0  
+       3          9.0   34.0   59.0   268.0  NaN       148.0  
+5194   1          NaN    NaN    NaN    11.0  NaN         5.0  
+       2          NaN    2.0    NaN    10.0  NaN         5.0  
+       3          1.0    1.0    1.0     7.0  NaN         6.0  
+       4          1.0    1.0    NaN     9.0  NaN         6.0  
+       5          NaN    NaN    2.0     9.0  NaN         6.0  
+       6          NaN    NaN    2.0     8.0  NaN         7.0  
+5433   1         12.0   12.0   38.0   143.0  NaN        32.0  
+       2          8.0   15.0   33.0   150.0  NaN        37.0  
+       3          7.0   22.0   35.0   128.0  NaN        43.0  
+5793   1          3.0    2.0   10.0    26.0  NaN         8.0  
+       2          4.0    7.0    7.0    24.0  NaN         9.0  
+       3          3.0    5.0    9.0    30.0  NaN        10.0  
+5797   1          4.0    5.0    6.0    60.0  NaN         9.0  
+       2          3.0    6.0   10.0    46.0  NaN        10.0  
+       3          3.0    9.0   11.0    42.0  NaN        12.0  
+       4          3.0    5.0   13.0    44.0  NaN        13.0  
+       5          4.0    6.0    9.0    46.0  NaN        15.0  
+5806   1         12.0   20.0   18.0    66.0  NaN        24.0  
+       2          7.0   15.0   23.0    82.0  NaN        27.0  
+5845   1          2.0    3.0   12.0    19.0  NaN         5.0  
+       2          1.0    3.0    5.0    28.0  NaN         6.0  
+       3          NaN    3.0    7.0    28.0  NaN         7.0  
+       4          1.0    1.0    1.0    31.0  NaN         8.0  
+       5          2.0    NaN    7.0    26.0  NaN        10.0  
+       6          NaN    3.0    4.0    27.0  NaN        10.0  
+       7          2.0    4.0    6.0    20.0  NaN        12.0  
+       8          NaN    NaN    7.0    23.0  NaN        15.0  
+       9          1.0    1.0    3.0    24.0  NaN        17.0  
+5881   1          9.0   17.0   38.0   101.0  NaN        41.0  
+       2          7.0   14.0   33.0   115.0  NaN        44.0  
+5895   1          2.0    2.0    3.0    28.0  NaN        10.0  
+       2          1.0    1.0    1.0    30.0  NaN        13.0  
+       3          1.0    1.0    NaN    30.0  NaN        13.0  
+       4          NaN    2.0    2.0    27.0  NaN        15.0  
+       5          NaN    2.0    4.0    23.0  NaN        16.0  
+       6          2.0    1.0    7.0    22.0  NaN        16.0  
+6061   1          8.0   14.0   23.0   155.0  NaN        44.0  
+       2          5.0   11.0   27.0   171.0  NaN        48.0  
+       3         15.0   18.0   24.0   131.0  NaN        57.0  
+6151   1          2.0    5.0    8.0    59.0  NaN        12.0  
+       2          3.0    4.0    9.0    48.0  NaN        17.0  
+       3          1.0    2.0    6.0    55.0  NaN        19.0  
+6420   1          1.0    1.0   12.0    46.0  NaN         7.0  
+       2          1.0    7.0   12.0    40.0  NaN         8.0  
+6460   1          1.0    2.0    1.0    13.0  NaN         1.0  
+       2          NaN    NaN    2.0    15.0  NaN         1.0  
+       3          NaN    NaN    NaN    15.0  NaN         3.0  
+6521   1          NaN    2.0    7.0    40.0  NaN        16.0  
+       2          1.0    5.0    8.0    24.0  NaN        21.0  
+       3          2.0    3.0    4.0    28.0  NaN        22.0  
+6781   1          NaN    6.0   12.0    59.0  NaN         9.0  
+       2          2.0    4.0   10.0    59.0  NaN        11.0  
+       3          2.0    5.0    3.0    64.0  NaN        11.0  
+       4          3.0    6.0   11.0    52.0  NaN        11.0  
+       5          1.0    7.0   19.0    40.0  NaN        12.0  
+       6          1.0    4.0    5.0    60.0  NaN        15.0  
+       7          NaN    4.0   10.0    52.0  NaN        19.0  
+7126   1          4.0   11.0   27.0    63.0  NaN        18.0  
+       2          6.0   13.0   22.0    60.0  NaN        24.0  
+       3          4.0    6.0   24.0    72.0  NaN        26.0  
+7130   1          7.0   14.0   32.0   181.0  NaN        58.0  
+       2          7.0   13.0   19.0   189.0  NaN        66.0  
+       3          5.0   25.0   19.0   142.0  NaN        75.0  
+       4          8.0    6.0   17.0   178.0  NaN        78.0  
+       5          9.0   23.0   30.0   131.0  NaN        82.0  
+       6          5.0   17.0   11.0   182.0  NaN        88.0  
+       7          7.0   12.0   21.0   165.0  NaN        94.0  
+       8          7.0   12.0   34.0   139.0  NaN        99.0  
+7184   1          4.0    2.0    9.0    36.0  NaN         6.0  
+       2          2.0    3.0    6.0    42.0  NaN         6.0  
+       3          1.0    2.0   11.0    28.0  NaN         9.0  
+       4          3.0    2.0    5.0    33.0  NaN        13.0  
+8199   1          2.0    1.0    3.0    22.0  NaN         6.0  
+       2          NaN    2.0    3.0    23.0  NaN         9.0  
+       3          NaN    NaN    2.0    25.0  NaN         9.0  
+       4          NaN    NaN    1.0    27.0  NaN         9.0  
+8200   1          2.0    4.0    2.0    62.0  NaN        11.0  
+       2          1.0    5.0    7.0    57.0  NaN        14.0  
+       3          3.0    7.0   12.0    41.0  NaN        15.0  
+8441   1          1.0    2.0    6.0    28.0  NaN         6.0  
+       2          3.0    4.0    6.0    20.0  NaN         7.0  
+8456   1          9.0   22.0   12.0   115.0  NaN        21.0  
+       2          2.0   13.0   18.0   137.0  NaN        27.0  
+       3          5.0   13.0   24.0   125.0  NaN        28.0  
+       4          NaN   10.0   21.0   136.0  NaN        32.0  
+       5          1.0    5.0    3.0   158.0  NaN        37.0  
+       6          2.0    9.0   19.0   135.0  NaN        38.0  
+       7          3.0    8.0   17.0   127.0  NaN        41.0  
+       8          2.0    9.0   16.0   133.0  NaN        46.0  
+       9          1.0    9.0   12.0   126.0  NaN        51.0  
+       10         4.0    6.0   16.0   125.0  NaN        52.0  
+       11         NaN    4.0   13.0   134.0  NaN        55.0  
+       12         3.0    8.0   17.0   117.0  NaN        58.0  
+       13         3.0    6.0   17.0   112.0  NaN        61.0  
+       14         6.0   10.0   14.0   109.0  NaN        61.0  
+       15         3.0   17.0   16.0    97.0  NaN        65.0  
+8457   1          6.0   22.0   17.0    99.0  NaN        19.0  
+       2          8.0   15.0   26.0    93.0  NaN        22.0  
+       3          5.0   22.0   26.0    94.0  NaN        22.0  
+       4          3.0    7.0   15.0   122.0  NaN        27.0  
+       5          5.0   12.0   17.0   109.0  NaN        32.0  
+       6          4.0   14.0   17.0   104.0  NaN        34.0  
+8545   1         13.0   16.0   24.0   238.0  NaN        78.0  
+       2         14.0   22.0   56.0   170.0  NaN        93.0  
+       3         12.0   17.0   27.0   208.0  NaN        97.0  
+       4          7.0   19.0   32.0   167.0  NaN       106.0  
+       5         11.0   28.0   40.0   135.0  NaN       117.0  
+       6         12.0   35.0   25.0   151.0  NaN       128.0  
+8547   1          9.0   36.0   64.0   174.0  NaN        85.0  
+       2          9.0   18.0   34.0   210.0  NaN       104.0  
+       3         15.0   14.0   41.0   201.0  NaN       113.0  
+8699   1          NaN    2.0    1.0    11.0  NaN         7.0  
+       2          NaN    1.0    2.0     9.0  NaN         8.0  
+8700   1          1.0    5.0   11.0    66.0  NaN         4.0  
+       2          1.0    2.0    5.0    66.0  NaN         5.0  
+       3          1.0    2.0    5.0    66.0  NaN         6.0  
+8701   1          NaN    4.0   10.0    25.0  NaN         8.0  
+       2          1.0    5.0    4.0    32.0  NaN         8.0  
+       3          NaN    2.0    7.0    37.0  NaN         9.0  
+       4          2.0    1.0    6.0    35.0  NaN        10.0  
+       5          3.0    2.0    1.0    40.0  NaN        10.0  
+8717   1          2.0    5.0   13.0    51.0  NaN         7.0  
+       2          NaN    6.0   14.0    51.0  NaN         8.0  
+       3          3.0    8.0   12.0    47.0  NaN        11.0  
+       4          NaN    5.0    5.0    57.0  NaN        13.0  
+       5          1.0    3.0    7.0    60.0  NaN        13.0  
+8854   1          NaN    1.0    2.0    12.0  NaN         6.0  
+       2          NaN    2.0    2.0    10.0  NaN         7.0  
+       3          NaN    2.0    3.0    12.0  NaN         7.0  
+8859   1          5.0   11.0   18.0    93.0  NaN        19.0  
+       2          3.0    9.0   24.0    80.0  NaN        25.0  
+       3          9.0   11.0   26.0    58.0  NaN        30.0  
+       4          7.0   12.0   22.0    72.0  NaN        33.0  
+8860   1          4.0    6.0   11.0    71.0  NaN        15.0  
+       2          1.0    5.0    9.0    69.0  NaN        17.0  
+8917   1          3.0    NaN    8.0    46.0  NaN        13.0  
+       2          2.0    3.0    4.0    48.0  NaN        14.0  
+       3          2.0    4.0    7.0    41.0  NaN        15.0  
+8918   1          3.0    6.0   13.0    51.0  NaN        14.0  
+       2          1.0    2.0    9.0    62.0  NaN        15.0  
+       3          2.0    5.0   13.0    45.0  NaN        18.0  
+       4          3.0    1.0    9.0    52.0  NaN        20.0  
+       5          1.0    3.0    5.0    61.0  NaN        21.0  
+       6          1.0    2.0    5.0    59.0  NaN        23.0  
+8919   1          NaN    1.0    NaN    17.0  NaN         2.0  
+       2          NaN    1.0    NaN    15.0  NaN         3.0  
+       3          NaN    1.0    2.0    14.0  NaN         4.0  
+9091   1          7.0   22.0   33.0   117.0  NaN        38.0  
+       2          4.0   15.0   27.0   135.0  NaN        41.0  
+       3          6.0   16.0   25.0   121.0  NaN        44.0  
+       4          3.0   18.0   28.0   126.0  NaN        48.0  
+9092   1          1.0    3.0    4.0    34.0  NaN         4.0  
+       2          1.0    3.0    3.0    30.0  NaN         6.0  
+9097   1          2.0    4.0   16.0    53.0  NaN        17.0  
+       2          4.0    4.0    5.0    59.0  NaN        20.0  
+9578   1          4.0   14.0   20.0    69.0  NaN        26.0  
+       2          3.0   11.0   22.0    66.0  NaN        31.0  
+       3          2.0    9.0    9.0    74.0  NaN        31.0  
+       4          4.0    9.0   11.0    73.0  NaN        34.0  
+       5          5.0    5.0   13.0    67.0  NaN        38.0  
+9580   1          3.0   11.0   12.0    68.0  NaN         6.0  
+       2          3.0    6.0   12.0    79.0  NaN         6.0  
+       3          1.0   12.0   13.0    63.0  NaN         9.0  
+9582   1          2.0    8.0   14.0    76.0  NaN        14.0  
+       2          3.0   12.0    9.0    66.0  NaN        17.0  
+       3         12.0   14.0   14.0    53.0  NaN        19.0  
+       4          5.0    4.0   16.0    68.0  NaN        22.0  
+9584   1          NaN    3.0    4.0    46.0  NaN         5.0  
+       2          1.0    NaN   10.0    39.0  NaN         6.0  
+       3          NaN    5.0    4.0    39.0  NaN         7.0  
+       4          2.0    5.0    8.0    37.0  NaN         7.0  
+9625   1          2.0    6.0   19.0    78.0  NaN        12.0  
+       2          5.0   12.0   26.0    50.0  NaN        12.0  
+       3          5.0    8.0   13.0    61.0  NaN        14.0  
+       4          4.0   12.0   22.0    52.0  NaN        17.0  
+       5          5.0   10.0   19.0    37.0  NaN        20.0  
+       6          7.0    9.0   10.0    52.0  NaN        21.0  
+9626   1          1.0   11.0   10.0    93.0  NaN        24.0  
+       2          5.0    2.0    9.0    93.0  NaN        27.0  
+       3          3.0    6.0   21.0    73.0  NaN        31.0  
+       4          3.0    9.0    9.0    72.0  NaN        36.0  
+       5          4.0   14.0    5.0    67.0  NaN        38.0  
+9751   1          NaN    4.0    3.0     4.0  NaN         2.0  
+       2          1.0    NaN    NaN     6.0  NaN         3.0  
+       3          NaN    1.0    2.0     5.0  NaN         3.0  
+       4          NaN    NaN    NaN     7.0  NaN         4.0  
+       5          NaN    2.0    1.0     4.0  NaN         4.0  
+       6          NaN    1.0    NaN     7.0  NaN         4.0  
+       7          NaN    NaN    1.0     5.0  NaN         6.0  
+       8          NaN    NaN    NaN     4.0  NaN         6.0  
+9769   1          2.0    4.0    3.0    27.0  NaN        11.0  
+       2          1.0    3.0    3.0    33.0  NaN        12.0  
+       3          NaN    NaN    2.0    32.0  NaN        14.0  
+       4          NaN    1.0    2.0    27.0  NaN        16.0  
+       5          1.0    3.0    2.0    23.0  NaN        17.0  
+       6          1.0    2.0    6.0    23.0  NaN        18.0  
+       7          1.0    2.0    1.0    29.0  NaN        18.0  
+9770   1          3.0   12.0   23.0    63.0  NaN        39.0  
+       2          4.0   10.0   19.0    59.0  1.0        43.0  
+9771   1          3.0   12.0   23.0    83.0  NaN        45.0  
+       2          5.0   13.0   11.0    80.0  NaN        49.0  
+       3          5.0   13.0   19.0    54.0  NaN        56.0  
+9850   1          NaN    NaN    4.0    12.0  NaN         3.0  
+       2          2.0    NaN    1.0    12.0  NaN         3.0  
+       3          NaN    1.0    1.0    15.0  NaN         3.0  
+       4          1.0    1.0    4.0    12.0  NaN         4.0  
+       5          NaN    NaN    3.0    13.0  NaN         4.0  
+       6          NaN    1.0    3.0    10.0  NaN         5.0  
+9851   1         16.0   25.0   27.0   125.0  NaN        74.0  
+       2          8.0   12.0   29.0   129.0  NaN        83.0  
+       3         13.0   17.0   21.0   125.0  NaN        90.0  
+9916   1          1.0    4.0   11.0    50.0  NaN        11.0  
+       2          1.0    7.0   11.0    42.0  NaN        17.0  
+       3          3.0    4.0   17.0    31.0  NaN        20.0  
+9918   1          2.0    4.0    8.0    25.0  NaN         8.0  
+       2          NaN    5.0    9.0    28.0  NaN         9.0  
+       3          3.0    1.0    6.0    27.0  NaN        11.0  
+10019  1          7.0   20.0   26.0    77.0  NaN        16.0  
+       2          5.0    9.0   27.0    86.0  NaN        20.0  
+       3          8.0   12.0   16.0    83.0  NaN        25.0  
+10020  1          2.0    9.0    6.0    50.0  NaN        11.0  
+       2          4.0    4.0    7.0    30.0  NaN        12.0  
+       3          4.0    6.0    6.0    48.0  NaN        16.0  
+10021  1          NaN    2.0    2.0    10.0  NaN         5.0  
+       2          NaN    2.0    4.0     8.0  NaN         9.0  
+       3          2.0    2.0    2.0     8.0  NaN         9.0  
+       4          1.0    1.0    2.0     9.0  NaN        11.0  
+10022  1          6.0   15.0   12.0    55.0  NaN        16.0  
+       2          2.0   10.0   10.0    59.0  NaN        23.0  
+10023  1          2.0   13.0   21.0    96.0  NaN        36.0  
+       2          6.0    7.0   16.0   107.0  NaN        37.0  
+       3          5.0    4.0   27.0   101.0  NaN        39.0  
+       4          5.0   12.0   18.0    97.0  NaN        43.0  
+       5          2.0    5.0   14.0   105.0  NaN        48.0  
+       6          5.0   10.0   17.0    94.0  NaN        52.0  
+10026  1         12.0   30.0   37.0   106.0  NaN        54.0  
+       2          7.0   14.0   20.0   145.0  NaN        64.0  
+       3         13.0   12.0   21.0   128.0  NaN        74.0  
+10073  1          2.0    7.0   12.0    32.0  NaN        14.0  
+       2          1.0    7.0    7.0    29.0  NaN        16.0  
+       3          1.0    6.0   11.0    30.0  NaN        19.0  
+       4          1.0    1.0   15.0    28.0  NaN        20.0  
+       5          2.0    2.0    6.0    40.0  NaN        22.0  
+10074  1          1.0    6.0    8.0    15.0  NaN         5.0  
+       2          1.0    7.0    4.0    11.0  NaN         8.0  
+       3          1.0    4.0    5.0    20.0  NaN        11.0  
+       4          1.0    3.0    7.0    10.0  NaN        12.0  
+       5          3.0    5.0    4.0    16.0  NaN        12.0  
+10177  1          4.0   23.0   41.0   150.0  NaN        24.0  
+       2          1.0   20.0   32.0   166.0  NaN        25.0  
+       3          5.0   14.0   20.0   174.0  NaN        33.0  
+       4          6.0   19.0   32.0   143.0  NaN        37.0  
+       5          3.0   13.0   36.0   145.0  NaN        43.0  
+       6          3.0   13.0   27.0   153.0  NaN        48.0  
+       7          4.0   12.0   20.0   155.0  NaN        53.0  
+10201  1          NaN    2.0   12.0    51.0  NaN        12.0  
+       2          1.0    5.0   13.0    45.0  NaN        12.0  
+       3          NaN    6.0    7.0    50.0  NaN        13.0  
+       4          NaN    4.0    6.0    45.0  NaN        16.0  
+       5          1.0    2.0   10.0    45.0  NaN        16.0  
+       6          2.0    1.0    5.0    47.0  NaN        16.0  
+       7          2.0    3.0    3.0    45.0  NaN        18.0  
+       8          3.0    4.0    5.0    36.0  NaN        20.0  
+       9          3.0    3.0    8.0    41.0  NaN        21.0  
+       10         3.0    7.0    5.0    38.0  NaN        21.0  
+       11         2.0    2.0    6.0    37.0  NaN        23.0  
+       12         2.0    6.0    4.0    33.0  NaN        25.0  
+10249  1          1.0    1.0    3.0    13.0  NaN         1.0  
+       2          NaN    2.0    5.0    10.0  NaN         1.0  
+       3          1.0    2.0    3.0     9.0  NaN         1.0  
+       4          3.0    2.0    3.0     9.0  NaN         1.0  
+       5          1.0    2.0    2.0    13.0  NaN         3.0  
+       6          1.0    2.0    3.0     9.0  NaN         4.0  
+       7          2.0    2.0    NaN     8.0  NaN         4.0  
+       8          1.0    1.0    2.0     9.0  NaN         5.0  
+       9          NaN    1.0    1.0    10.0  NaN         5.0  
+       10         1.0    2.0    NaN    11.0  NaN         5.0  
+10250  1          2.0   19.0   21.0    58.0  NaN        53.0  
+       2          7.0   14.0   16.0    57.0  NaN        60.0  
+       3          3.0   15.0   22.0    53.0  NaN        66.0  
+       4          7.0   10.0   23.0    61.0  NaN        70.0  
+       5         13.0   14.0   21.0    46.0  NaN        70.0  
+10257  1          7.0   10.0   14.0    66.0  NaN        42.0  
+       2          1.0   11.0   14.0    79.0  NaN        49.0  
+       3          1.0   12.0   13.0    70.0  NaN        52.0  
+       4          2.0    9.0   16.0    67.0  NaN        54.0  
+       5          7.0   10.0   14.0    48.0  NaN        60.0  
+10301  1          2.0    2.0    5.0    12.0  NaN         5.0  
+       2          1.0    2.0    3.0    18.0  NaN         5.0  
+       3          NaN    2.0    1.0    19.0  NaN         7.0  
+       4          NaN    1.0    4.0    18.0  NaN         8.0  
+       5          1.0    NaN    1.0    20.0  NaN         8.0  
+       6          NaN    1.0    1.0    22.0  NaN         9.0  
+       7          NaN    2.0    2.0    18.0  NaN         9.0  
+       8          NaN    1.0    3.0    15.0  NaN        10.0  
+       9          NaN    2.0    3.0    14.0  NaN        10.0  
+       10         NaN    2.0    1.0    19.0  NaN        10.0  
+       11         1.0    3.0    1.0    14.0  NaN        11.0  
+       12         1.0    NaN    1.0    16.0  NaN        12.0  
+       13         NaN    1.0    2.0    15.0  NaN        13.0  
+10303  1          6.0   11.0   17.0    52.0  NaN        25.0  
+       2          5.0    7.0    9.0    50.0  NaN        31.0  
+       3          4.0   10.0   14.0    44.0  NaN        32.0  
+       4          3.0   13.0   14.0    36.0  NaN        36.0  
+10308  1          2.0    1.0    6.0    31.0  NaN         8.0  
+       2          3.0    2.0    3.0    29.0  NaN        12.0  
+       3          3.0    2.0    5.0    28.0  NaN        13.0  
+       4          1.0    2.0    4.0    26.0  NaN        16.0  
+       5          2.0    3.0    4.0    23.0  NaN        17.0  
+10455  1          1.0    2.0    6.0    14.0  NaN         3.0  
+       2          1.0    4.0    7.0    11.0  NaN         3.0  
+       3          2.0    2.0    3.0    14.0  NaN         3.0  
+       4          1.0    2.0    2.0    12.0  NaN         4.0  
+       5          1.0    2.0    4.0    12.0  NaN         4.0  
+       6          NaN    1.0    2.0    17.0  NaN         5.0  
+10457  1          5.0    7.0   10.0    45.0  NaN        13.0  
+       2          4.0    8.0   11.0    48.0  NaN        15.0  
+       3          1.0    3.0   12.0    52.0  NaN        16.0  
+       4          2.0    4.0    8.0    52.0  NaN        17.0  
+       5          4.0    3.0    7.0    48.0  NaN        20.0  
+       6          4.0    4.0    5.0    47.0  NaN        25.0  
+10459  1          NaN    NaN    1.0     4.0  NaN         2.0  
+       2          2.0    NaN    2.0     4.0  NaN         3.0  
+       3          NaN    1.0    NaN     7.0  NaN         3.0  
+       4          1.0    2.0    NaN     6.0  NaN         3.0  
+       5          NaN    2.0    NaN     7.0  NaN         3.0  
+       6          NaN    NaN    NaN     7.0  NaN         3.0  
+       7          NaN    1.0    2.0     3.0  NaN         3.0  
+       8          NaN    NaN    1.0     3.0  NaN         4.0  
+       9          NaN    1.0    1.0     5.0  NaN         4.0  
+       10         NaN    1.0    NaN     5.0  NaN         5.0  
+       11         1.0    NaN    NaN     5.0  NaN         5.0  
+       12         NaN    1.0    NaN     5.0  NaN         5.0  
+10535  1          4.0    3.0    4.0    28.0  NaN         2.0  
+       2          NaN    2.0    1.0    29.0  NaN         4.0  
+       3          1.0    3.0    3.0    25.0  NaN         5.0  
+       4          1.0    2.0    3.0    26.0  NaN         7.0  
+       5          NaN    3.0    1.0    27.0  NaN         8.0  
+       6          2.0    1.0    3.0    25.0  NaN         8.0  
+10537  1          NaN    NaN    1.0     5.0  NaN         3.0  
+       2          NaN    1.0    1.0     5.0  NaN         3.0  
+       3          1.0    1.0    NaN     4.0  NaN         3.0  
+       4          NaN    NaN    1.0     4.0  NaN         3.0  
+       5          1.0    NaN    1.0     3.0  NaN         3.0  
+10540  1          NaN    NaN    1.0     8.0  NaN         2.0  
+       2          NaN    NaN    NaN     9.0  NaN         2.0  
+       3          NaN    NaN    2.0     7.0  NaN         2.0  
+       4          NaN    NaN    NaN     9.0  NaN         2.0  
+10543  1          4.0   12.0   15.0    85.0  NaN        20.0  
+       2          8.0    7.0   17.0    74.0  NaN        22.0  
+       3          1.0    8.0   21.0    83.0  NaN        29.0  
+       4          1.0    4.0    8.0    96.0  NaN        37.0  
+       5          1.0    8.0   14.0    80.0  NaN        43.0  
+10546  1          NaN    1.0    2.0    28.0  NaN         5.0  
+       2          NaN    2.0    3.0    25.0  NaN         5.0  
+       3          1.0    2.0    3.0    26.0  NaN         6.0  
+10564  1          5.0   11.0   12.0    41.0  NaN        22.0  
+10565  1          6.0    8.0   23.0    67.0  NaN        54.0  
+       2          5.0   13.0   13.0    42.0  NaN        65.0  
+       3          9.0    6.0   17.0    55.0  NaN        68.0  
+       4          6.0   15.0   14.0    62.0  NaN        73.0  
+10568  1          1.0    5.0   13.0    88.0  NaN        10.0  
+       2          3.0    3.0   12.0    88.0  NaN        11.0  
+       3          NaN    9.0    8.0    81.0  NaN        13.0  
+       4          2.0    5.0    9.0    83.0  NaN        16.0  
+       5          1.0    5.0    5.0    88.0  NaN        16.0  
+       6          1.0    4.0    6.0    89.0  NaN        17.0  
+10570  1          NaN    NaN    NaN     1.0  NaN         3.0  
+       2          NaN    NaN    NaN     1.0  NaN         3.0  
+       3          NaN    NaN    NaN     1.0  NaN         3.0  
+       4          NaN    NaN    NaN     1.0  NaN         3.0  
+       5          NaN    NaN    NaN     1.0  NaN         3.0  
+10573  1          1.0    1.0    3.0    22.0  NaN         4.0  
+       2          1.0    1.0    4.0    23.0  NaN         5.0  
+10586  1          NaN    1.0    7.0    24.0  NaN        10.0  
+10589  1          1.0    NaN    NaN     7.0  NaN         NaN  
+       2          1.0    1.0    1.0     5.0  NaN         NaN  
+       3          NaN    NaN    1.0     7.0  NaN         NaN  
+       4          1.0    NaN    NaN     6.0  NaN         1.0  
+       5          NaN    NaN    1.0     6.0  NaN         1.0  
+       6          NaN    NaN    1.0     6.0  NaN         1.0  
+       7          NaN    NaN    1.0     6.0  NaN         1.0  
+       8          NaN    NaN    1.0     6.0  NaN         1.0  
+       9          NaN    1.0    NaN     6.0  NaN         1.0  
+10858  1          NaN    4.0    3.0    14.0  NaN         7.0  
+       2          2.0    3.0    2.0     8.0  NaN         7.0  
+       3          2.0    NaN    5.0    10.0  NaN         7.0  
+10860  1          NaN    6.0    8.0    22.0  NaN        10.0  
+       2          1.0    3.0    7.0    32.0  NaN        11.0  
+       3          NaN    2.0    8.0    33.0  NaN        11.0  
+11385  1          3.0    NaN    5.0    14.0  NaN         2.0  
+       2          NaN    2.0    7.0    16.0  NaN         2.0  
+       3          1.0    6.0    4.0    15.0  NaN         2.0  
+       4          1.0    5.0    6.0    16.0  NaN         2.0  
+       5          3.0    3.0    1.0    18.0  NaN         3.0  
+11387  1          1.0    1.0    4.0     7.0  NaN         2.0  
+11389  1          6.0    6.0   12.0    76.0  NaN        17.0  
+       2          6.0    6.0    9.0    73.0  NaN        20.0  
+11399  1          NaN    1.0    2.0    11.0  NaN         5.0  
+       2          1.0    2.0    1.0     9.0  NaN         5.0  
+       3          NaN    1.0    1.0    12.0  NaN         5.0  
+       4          1.0    1.0    3.0     7.0  NaN         6.0  
+       5          1.0    2.0    1.0    10.0  NaN         6.0  
+11406  1          1.0    6.0    3.0   128.0  NaN        14.0  
+       2          4.0   12.0   14.0   101.0  NaN        17.0  
+       3          4.0    6.0   18.0    92.0  NaN        21.0  
+       4          2.0    3.0   12.0   110.0  NaN        25.0  
+11429  1          1.0    NaN    1.0     6.0  NaN         NaN  
+       2          NaN    NaN    1.0     9.0  NaN         NaN  
+       3          1.0    2.0    1.0     6.0  NaN         NaN  
+       4          NaN    1.0    1.0     6.0  NaN         NaN  
+       5          1.0    2.0    1.0     5.0  NaN         NaN  
+11580  1          NaN    2.0    NaN     6.0  NaN         2.0  
+       2          1.0    1.0    NaN     6.0  NaN         4.0  
+       3          NaN    1.0    1.0     4.0  NaN         6.0  
+       4          NaN    NaN    1.0     4.0  NaN         7.0  
+       5          NaN    NaN    NaN     5.0  NaN         7.0  
+11618  1          1.0    1.0    1.0     6.0  NaN         5.0  
+       2          NaN    NaN    1.0     7.0  NaN         5.0  
+       3          NaN    NaN    NaN     8.0  NaN         5.0  
+       4          NaN    2.0    1.0     5.0  NaN         5.0  
+11621  1          1.0    1.0    1.0    13.0  NaN        12.0  
+       2          NaN    NaN    2.0    15.0  NaN        13.0  
+       3          NaN    NaN    1.0    13.0  NaN        14.0  
+       4          NaN    2.0    2.0    12.0  NaN        14.0  
+11624  1          1.0    2.0    5.0     8.0  NaN         8.0  
+11628  1          2.0    1.0    NaN     1.0  NaN         3.0  
+       2          NaN    1.0    2.0     2.0  NaN         3.0  
+       3          1.0    NaN    1.0     2.0  NaN         3.0  
+11630  1          1.0    1.0    1.0     8.0  NaN         1.0  
+       2          1.0    NaN    3.0     6.0  NaN         2.0  
+       3          NaN    1.0    1.0     8.0  NaN         2.0  
+11695  1          1.0    1.0    NaN     8.0  NaN         1.0  
+       2          NaN    2.0    2.0     6.0  NaN         1.0  
+       3          NaN    NaN    1.0     8.0  NaN         2.0  
+       4          NaN    NaN    4.0     4.0  NaN         2.0  
+       5          NaN    NaN    2.0     6.0  NaN         3.0  
+11698  1          2.0    9.0   26.0    60.0  NaN        35.0  
+       2          8.0   15.0   21.0    54.0  NaN        44.0  
+       3          8.0   13.0   18.0    57.0  NaN        50.0  
+11700  1          NaN    2.0    NaN     3.0  NaN         2.0  
+       2          NaN    1.0    2.0     3.0  NaN         2.0  
+       3          NaN    1.0    1.0     3.0  NaN         2.0  
+       4          NaN    2.0    1.0     2.0  NaN         2.0  
+       5          1.0    NaN    3.0     2.0  NaN         2.0  
+       6          1.0    NaN    NaN     3.0  NaN         2.0  
+       7          NaN    2.0    1.0     2.0  NaN         2.0  
+       8          NaN    1.0    1.0     1.0  NaN         2.0  
+11853  1          NaN    4.0    7.0    18.0  NaN         9.0  
+11855  1          4.0   10.0   11.0    43.0  NaN        48.0  
+11857  1          NaN   10.0    9.0    29.0  NaN        19.0  
+       2          1.0    7.0   10.0    30.0  NaN        26.0  
+       3          3.0    5.0    9.0    16.0  NaN        29.0  
+       4          1.0    4.0    4.0    35.0  NaN        29.0  
+11859  1          NaN    1.0    1.0     1.0  NaN         3.0  
+       2          NaN    NaN    NaN     2.0  NaN         4.0  
+       3          NaN    NaN    NaN     2.0  NaN         4.0  
+11861  1          1.0    1.0    4.0    18.0  NaN         4.0  
+       2          1.0    1.0    4.0    15.0  NaN         5.0  
+       3          1.0    2.0    3.0    16.0  NaN         5.0  
+11863  1          3.0    3.0    1.0    25.0  NaN        18.0  
+       2          2.0    2.0    6.0    16.0  NaN        22.0  
+12060  1          3.0    6.0   16.0    56.0  NaN        19.0  
+       2          8.0    4.0   11.0    53.0  NaN        22.0  
+       3          2.0    3.0   14.0    54.0  NaN        27.0  
+       4          2.0    7.0    7.0    55.0  NaN        29.0  
+       5          1.0   12.0   16.0    39.0  NaN        30.0  
+12062  1          1.0    2.0    3.0     4.0  NaN         6.0  
+       2          NaN    3.0    1.0     5.0  NaN         6.0  
+       3          NaN    NaN    1.0     8.0  NaN         6.0  
+       4          NaN    1.0    1.0     6.0  NaN         7.0  
+12127  1          1.0    6.0    4.0    17.0  NaN         7.0  
+       2          3.0    NaN    4.0    15.0  NaN         9.0  
+       3          2.0    3.0    3.0    13.0  NaN        12.0  
+12129  1          1.0    2.0    3.0    11.0  NaN         2.0  
+       2          1.0    NaN    2.0    16.0  NaN         2.0  
+       3          NaN    NaN    1.0    15.0  NaN         3.0  
+       4          NaN    NaN    1.0    18.0  NaN         3.0  
+       5          NaN    NaN    NaN    16.0  NaN         3.0  
+       6          NaN    1.0    NaN    16.0  NaN         4.0  
+12134  1          1.0    1.0    2.0     6.0  NaN         5.0  
+       2          1.0    5.0    1.0     2.0  NaN         5.0  
+       3          NaN    2.0    3.0     4.0  NaN         6.0  
+       4          NaN    4.0    NaN     5.0  NaN         6.0  
+       5          NaN    2.0    2.0     4.0  NaN         6.0  
+       6          NaN    NaN    NaN    10.0  NaN         7.0  
+12214  1          1.0    1.0    1.0    12.0  NaN        32.0  
+12216  1          NaN    2.0    1.0     4.0  NaN         6.0  
+       2          NaN    2.0    NaN     4.0  NaN         7.0  
+12218  1          1.0    3.0    2.0     8.0  NaN        62.0  
+       2          2.0    2.0    2.0    12.0  NaN        68.0  
+12220  1          2.0    3.0    8.0    24.0  NaN         8.0  
+       2          1.0    8.0    5.0    25.0  NaN         8.0  
+       3          1.0    3.0    5.0    30.0  NaN        10.0  
+12222  1          2.0    6.0    9.0    45.0  NaN        13.0  
+       2          2.0    6.0   11.0    42.0  NaN        15.0  
+       3          4.0    8.0    7.0    39.0  NaN        16.0  
+       4          1.0    1.0   11.0    45.0  NaN        17.0  
+12224  1          NaN    NaN    NaN     1.0  NaN         5.0  
+       2          NaN    NaN    NaN     1.0  NaN         5.0  
+       3          NaN    NaN    NaN     1.0  NaN         5.0  
+12311  1          NaN    4.0    4.0    11.0  NaN         5.0  
+       2          NaN    NaN    5.0    14.0  NaN         5.0  
+       3          1.0    NaN    6.0    12.0  NaN         5.0  
+12312  1          NaN    NaN    2.0     7.0  NaN        11.0  
+       2          NaN    1.0    3.0     5.0  NaN        11.0  
+12316  1          NaN    NaN    NaN     6.0  NaN         3.0  
+       2          NaN    NaN    NaN     6.0  NaN         3.0  
+12318  1          NaN    NaN    2.0     5.0  NaN         5.0  
+       2          NaN    NaN    1.0     6.0  NaN         5.0  
+       3          NaN    NaN    1.0     6.0  NaN         6.0  
+       4          1.0    2.0    1.0     5.0  NaN         6.0  
+       5          NaN    1.0    1.0     5.0  NaN         6.0  
+       6          NaN    NaN    1.0     6.0  NaN         7.0  
+       7          NaN    2.0    NaN     6.0  NaN         8.0  
+       8          1.0    NaN    1.0     4.0  NaN         9.0  
+12593  1          NaN    2.0    NaN     1.0  NaN         NaN  
+       2          NaN    NaN    NaN     1.0  NaN         NaN  
+       3          NaN    NaN    NaN     1.0  NaN         NaN  
+       4          1.0    NaN    NaN     1.0  NaN         NaN  
+12594  1          1.0    NaN    3.0    16.0  NaN         5.0  
+       2          NaN    NaN    5.0    12.0  NaN         6.0  
+12597  1          1.0    8.0   14.0    96.0  NaN        22.0  
+       2          2.0   11.0   14.0    85.0  NaN        25.0  
+       3          6.0   10.0   12.0    77.0  NaN        28.0  
+       4          7.0   10.0   14.0    82.0  NaN        28.0  
+       5          2.0    7.0   16.0    87.0  NaN        28.0  
+       6          4.0    6.0   17.0    80.0  NaN        33.0  
+12601  1          1.0    3.0    6.0     9.0  NaN        10.0  
+       2          2.0    5.0    8.0    11.0  NaN        10.0  
+12603  1          3.0    9.0   22.0   112.0  NaN        14.0  
+       2          3.0    9.0   15.0   116.0  NaN        18.0  
+       3          4.0   12.0   22.0   100.0  NaN        23.0  
+       4          NaN    3.0    9.0   127.0  NaN        24.0  
+       5          5.0    9.0   19.0   100.0  NaN        26.0  
+       6          2.0    6.0   14.0   108.0  NaN        30.0  
+12605  1          NaN    1.0    1.0     4.0  NaN         NaN  
+       2          NaN    NaN    1.0     3.0  NaN         1.0  
+       3          NaN    NaN    NaN     4.0  NaN         1.0  
+       4          NaN    1.0    NaN     4.0  NaN         1.0  
+       5          NaN    1.0    NaN     4.0  NaN         2.0  
+       6          NaN    NaN    NaN     4.0  NaN         2.0  
+       7          NaN    NaN    NaN     3.0  NaN         3.0  
+       8          NaN    NaN    NaN     4.0  NaN         3.0  
+12665  1          NaN    1.0    3.0     7.0  NaN         4.0  
+12667  1          NaN    NaN    NaN     5.0  NaN         3.0  
+       2          NaN    NaN    1.0     3.0  NaN         3.0  
+       3          1.0    1.0    NaN     2.0  NaN         3.0  
+       4          NaN    1.0    NaN     3.0  NaN         3.0  
+12669  1          NaN    NaN    2.0     6.0  NaN         1.0  
+       2          NaN    1.0    1.0     6.0  NaN         1.0  
+       3          NaN    1.0    NaN     6.0  NaN         1.0  
+       4          1.0    NaN    NaN     5.0  NaN         3.0  
+       5          NaN    1.0    1.0     5.0  NaN         3.0  
+       6          NaN    NaN    1.0     6.0  NaN         4.0  
+       7          NaN    1.0    NaN     6.0  NaN         4.0  
+12671  1          NaN    5.0    3.0     9.0  NaN         8.0  
+       2          1.0    NaN    5.0     8.0  NaN        11.0  
+       3          NaN    3.0    1.0     6.0  NaN        12.0  
+       4          2.0    2.0    3.0     3.0  NaN        13.0  
+       5          NaN    1.0    1.0    11.0  NaN        13.0  
+12673  1          5.0    7.0   10.0    25.0  NaN        17.0  
+       2          4.0    7.0    4.0    27.0  NaN        20.0  
+       3          4.0    5.0   10.0    19.0  NaN        25.0  
+       4          5.0    4.0    4.0    18.0  NaN        30.0  
+       5          2.0    3.0    6.0    20.0  NaN        32.0  
+12675  1          3.0   10.0    7.0    20.0  NaN        32.0  
+       2          5.0   10.0    6.0    20.0  NaN        35.0  
+       3          2.0    7.0    6.0    22.0  NaN        40.0  
+       4          NaN    5.0   12.0    16.0  NaN        42.0  
+       5          4.0    NaN    1.0    18.0  NaN        46.0  
+       6          3.0    2.0    4.0    14.0  NaN        50.0  
+       7          NaN    1.0    7.0    13.0  NaN        53.0  
+       8          2.0    2.0    6.0    13.0  NaN        56.0  
+12740  1          1.0    2.0    NaN     5.0  NaN         4.0  
+12908  1          1.0    2.0    NaN     8.0  NaN        11.0  
+       2          3.0    2.0    1.0     7.0  1.0        12.0  
+       3          3.0    4.0    2.0     8.0  NaN        12.0  
+12910  1          NaN    3.0    3.0    16.0  NaN         5.0  
+       2          NaN    3.0    1.0    13.0  NaN         7.0  
+       3          1.0    3.0    4.0     7.0  NaN         8.0  
+       4          1.0    1.0    7.0     8.0  NaN         8.0  
+       5          NaN    NaN    2.0    13.0  NaN        10.0  
+12912  1          NaN    NaN    4.0    11.0  NaN         2.0  
+       2          1.0    1.0    NaN    11.0  NaN         3.0  
+       3          NaN    3.0    3.0    10.0  NaN         4.0  
+       4          NaN    2.0    NaN    11.0  NaN         4.0  
+       5          NaN    2.0    3.0     8.0  NaN         4.0  
+       6          1.0    NaN    1.0    12.0  NaN         4.0  
+       7          1.0    1.0    2.0     9.0  NaN         4.0  
+12943  1          NaN    NaN    NaN     9.0  NaN         4.0  
+       2          NaN    NaN    NaN     9.0  NaN         4.0  
+       3          NaN    NaN    NaN     9.0  NaN         4.0  
+       4          NaN    NaN    NaN     9.0  NaN         4.0  
+       5          NaN    NaN    NaN     9.0  NaN         4.0  
+       6          NaN    NaN    NaN     8.0  NaN         4.0  
+12947  1          2.0    2.0    3.0    19.0  NaN         2.0  
+       2          NaN    2.0    5.0    14.0  NaN         3.0  
+       3          NaN    1.0    1.0    20.0  NaN         3.0  
+       4          NaN    1.0    5.0    15.0  NaN         7.0  
+12949  1          NaN    NaN    NaN     9.0  NaN         8.0  
+       2          NaN    1.0    NaN     9.0  NaN         8.0  
+       3          NaN    NaN    3.0     7.0  NaN         8.0  
+12951  1          NaN    2.0    2.0    30.0  NaN         3.0  
+       2          NaN    4.0    1.0    28.0  NaN         3.0  
+       3          3.0    NaN    5.0    21.0  NaN         4.0  
+       4          2.0    3.0    3.0    24.0  NaN         5.0  
+       5          1.0    1.0    5.0    24.0  NaN         6.0  
+       6          NaN    NaN    5.0    23.0  NaN         8.0  
+       7          2.0    2.0    6.0    19.0  NaN         8.0  
+       8          2.0    2.0    3.0    22.0  NaN         8.0  
+       9          NaN    NaN    5.0    24.0  NaN         8.0  
+12984  1          NaN    2.0    1.0     8.0  NaN         4.0  
+       2          NaN    NaN    1.0     7.0  NaN         5.0  
+       3          NaN    NaN    1.0     6.0  NaN         5.0  
+       4          NaN    NaN    NaN     6.0  NaN         5.0  
+12986  1          1.0    5.0    4.0     5.0  NaN         6.0  
+       2          2.0    1.0    1.0     7.0  NaN         6.0  
+       3          1.0    NaN    NaN     7.0  NaN         7.0  
+       4          NaN    NaN    2.0     6.0  NaN         7.0  
+13002  1          3.0    2.0    9.0    42.0  NaN         6.0  
+       2          NaN    4.0    7.0    46.0  NaN         6.0  
+       3          1.0    NaN    2.0    54.0  NaN         7.0  
+       4          NaN    3.0    NaN    52.0  NaN        10.0  
+       5          NaN    2.0    4.0    43.0  NaN        11.0  
+       6          1.0    7.0    9.0    31.0  NaN        13.0  
+13004  1          2.0   11.0   17.0    98.0  NaN        18.0  
+       2          2.0   10.0   12.0   103.0  NaN        21.0  
+       3          3.0    6.0   12.0   105.0  NaN        24.0  
+       4          NaN   11.0   25.0    83.0  NaN        30.0  
+13010  1          1.0    5.0    6.0    32.0  NaN        10.0  
+       2          1.0    5.0    4.0    30.0  NaN        13.0  
+       3          2.0    4.0    5.0    26.0  NaN        16.0  
+13102  1          1.0    2.0    1.0     9.0  NaN         4.0  
+       2          NaN    1.0    1.0     9.0  NaN         4.0  
+       3          1.0    1.0    2.0     8.0  NaN         4.0  
+13103  1          NaN    2.0    NaN     4.0  NaN         3.0  
+       2          1.0    NaN    NaN     3.0  NaN         4.0  
+       3          NaN    1.0    2.0     2.0  NaN         4.0  
+13104  1          1.0    1.0    NaN     NaN  NaN         3.0  
+       2          NaN    NaN    NaN     NaN  NaN         3.0  
+       3          NaN    NaN    2.0     NaN  NaN         3.0  
+13183  1          1.0    NaN    NaN     6.0  NaN         2.0  
+       2          NaN    2.0    NaN     6.0  NaN         2.0  
+13185  1          NaN    NaN    1.0     1.0  NaN         NaN  
+       2          NaN    NaN    NaN     1.0  NaN         NaN  
+       3          NaN    NaN    NaN     1.0  NaN         NaN  
+13187  1          7.0   12.0   22.0    58.0  NaN        15.0  
+       2          5.0   12.0   20.0    51.0  NaN        22.0  
+13188  1          NaN    1.0    3.0     9.0  NaN         2.0  
+       2          NaN    1.0    1.0    10.0  NaN         2.0  
+13290  1          NaN    5.0    7.0    54.0  NaN         2.0  
+       2          NaN    1.0    5.0    60.0  NaN         2.0  
+       3          2.0    2.0   11.0    48.0  NaN         3.0  
+       4          1.0    2.0    3.0    58.0  NaN         4.0  
+13292  1          5.0   14.0   16.0    64.0  NaN        33.0  
+       2          NaN   12.0   13.0    68.0  NaN        40.0  
+       3          4.0   18.0   14.0    46.0  NaN        43.0  
+       4          2.0   12.0   14.0    52.0  NaN        45.0  
+13294  1          1.0    NaN    3.0     6.0  NaN         5.0  
+       2          1.0    2.0    1.0     7.0  NaN         5.0  
+13296  1          NaN    NaN    NaN     4.0  NaN         1.0  
+       2          1.0    NaN    1.0     4.0  NaN         1.0  
+       3          NaN    NaN    3.0     2.0  NaN         2.0  
+13298  1          1.0    3.0    2.0     9.0  NaN         2.0  
+       2          NaN    NaN    1.0    14.0  NaN         3.0  
+13300  1          NaN    NaN    1.0     1.0  NaN         1.0  
+       2          NaN    NaN    NaN     2.0  NaN         1.0  
+       3          1.0    NaN    NaN     2.0  NaN         1.0  
+       4          NaN    NaN    1.0     1.0  NaN         1.0  
+       5          NaN    NaN    NaN     3.0  NaN         1.0  
+       6          NaN    NaN    NaN     2.0  NaN         1.0  
+13302  1          NaN    NaN    2.0     2.0  NaN         7.0  
+       2          NaN    NaN    NaN     4.0  NaN         7.0  
+       3          NaN    NaN    1.0     4.0  NaN         8.0  
+13354  1          NaN    NaN    NaN     2.0  NaN         NaN  
+13388  1          2.0    NaN    1.0     4.0  NaN         1.0  
+       2          NaN    1.0    1.0     3.0  NaN         1.0  
+       3          1.0    NaN    NaN     3.0  NaN         2.0  
+       4          NaN    NaN    NaN     3.0  NaN         2.0  
+       5          NaN    NaN    NaN     4.0  NaN         3.0  
+       6          NaN    NaN    NaN     3.0  NaN         3.0  
+13390  1          1.0    2.0    1.0     3.0  NaN         3.0  
+       2          NaN    NaN    1.0     5.0  NaN         3.0  
+13392  1          1.0    2.0    1.0    11.0  NaN         8.0  
+       2          1.0    2.0    6.0     5.0  NaN        12.0  
+       3          3.0    2.0    3.0     6.0  NaN        13.0  
+13394  1          NaN    1.0    1.0     5.0  NaN         2.0  
+       2          NaN    1.0    1.0     4.0  NaN         3.0  
+13498  1          NaN    1.0    NaN     3.0  NaN         3.0  
+       2          1.0    NaN    NaN     2.0  NaN         3.0  
+       3          NaN    NaN    NaN     2.0  NaN         3.0  
+       4          NaN    1.0    NaN     2.0  NaN         3.0  
+       5          NaN    NaN    NaN     3.0  NaN         4.0  
+       6          NaN    NaN    NaN     3.0  NaN         4.0  
+       7          NaN    NaN    NaN     3.0  NaN         4.0  
+       8          NaN    1.0    1.0     1.0  NaN         4.0  
+       9          NaN    NaN    NaN     1.0  NaN         5.0  
+       10         NaN    NaN    NaN     2.0  NaN         5.0  
+13500  1          NaN    NaN    NaN     NaN  NaN         2.0  
+       2          NaN    NaN    NaN     NaN  NaN         2.0  
+       3          NaN    NaN    NaN     NaN  NaN         2.0  
+13506  1          NaN    NaN    NaN     2.0  NaN         2.0  
+       2          NaN    NaN    NaN     2.0  NaN         2.0  
+       3          NaN    NaN    NaN     2.0  NaN         2.0  
+13507  1          NaN    2.0    3.0     2.0  NaN         3.0  
+       2          NaN    NaN    3.0     3.0  NaN         5.0  
+13564  1          NaN    NaN    1.0     1.0  NaN         5.0  
+       2          NaN    1.0    1.0     1.0  NaN         5.0  
+       3          NaN    1.0    1.0     NaN  NaN         5.0  
+       4          1.0    NaN    NaN     1.0  NaN         5.0  
+       5          NaN    NaN    1.0     NaN  NaN         5.0  
+13566  1          1.0    1.0    2.0     2.0  NaN         2.0  
+       2          NaN    1.0    NaN     4.0  NaN         2.0  
+13568  1          NaN    NaN    2.0     3.0  NaN         3.0  
+       2          NaN    2.0    1.0     2.0  NaN         3.0  
+       3          NaN    NaN    1.0     3.0  NaN         3.0  
+13570  1          NaN    NaN    NaN     2.0  NaN         2.0  
+       2          NaN    NaN    NaN     2.0  NaN         2.0  
+       3          NaN    NaN    NaN     2.0  NaN         2.0  
+13572  1          NaN    NaN    NaN     NaN  NaN         1.0  
+       2          NaN    NaN    NaN     NaN  NaN         1.0  
+       3          NaN    NaN    NaN     NaN  NaN         1.0  
+13574  1          NaN    NaN    NaN     1.0  NaN         4.0  
+       2          NaN    NaN    NaN     1.0  NaN         4.0  
+       3          NaN    NaN    NaN     2.0  NaN         4.0  
+       4          NaN    1.0    NaN     2.0  NaN         4.0  
+       5          NaN    NaN    NaN     2.0  NaN         4.0  
+13701  1          NaN    NaN    1.0     1.0  NaN         NaN  
+       2          NaN    NaN    1.0     2.0  NaN         1.0  
+       3          NaN    NaN    NaN     3.0  NaN         1.0  
+13703  1          1.0    NaN    2.0     1.0  NaN         2.0  
+       2          NaN    1.0    NaN     3.0  NaN         2.0  
+       3          NaN    NaN    2.0     1.0  NaN         2.0  
+       4          NaN    2.0    NaN     2.0  NaN         2.0  
+       5          NaN    NaN    1.0     3.0  NaN         2.0  
+13705  1          NaN    1.0    NaN     3.0  NaN         1.0  
+       2          NaN    1.0    NaN     3.0  NaN         1.0  
+       3          NaN    1.0    NaN     3.0  NaN         1.0  
+       4          NaN    NaN    2.0     2.0  NaN         1.0  
+13722  1          1.0    6.0   10.0    73.0  NaN        20.0  
+       2          3.0   12.0    9.0    60.0  NaN        20.0  
+       3          2.0   16.0   19.0    45.0  NaN        23.0  
+13724  1          NaN    1.0    2.0     3.0  NaN         6.0  
+       2          NaN    1.0    1.0     3.0  NaN         7.0  
+       3          1.0    1.0    1.0     1.0  NaN         9.0  
+       4          NaN    1.0    2.0     NaN  NaN        10.0  
+       5          NaN    1.0    1.0     4.0  NaN        10.0  
+13726  1          NaN    NaN    NaN     1.0  NaN         NaN  
+       2          NaN    NaN    1.0     NaN  NaN         NaN  
+       3          1.0    NaN    NaN     NaN  NaN         NaN  
+       4          NaN    1.0    NaN     NaN  NaN         NaN  
+       5          NaN    NaN    NaN     1.0  NaN         NaN  
+13729  1          NaN    1.0    NaN     NaN  NaN         2.0  
+       2          1.0    NaN    2.0     NaN  NaN         2.0  
+13731  1          NaN    NaN    NaN     3.0  NaN         4.0  
+       2          NaN    NaN    NaN     3.0  NaN         4.0  
+       3          NaN    NaN    NaN     3.0  NaN         4.0  
+       4          NaN    NaN    NaN     3.0  NaN         4.0  
+13736  1          1.0    NaN    1.0     3.0  NaN         1.0  
+       2          NaN    1.0    NaN     4.0  NaN         1.0  
+14026  1          NaN    NaN    NaN     1.0  NaN         6.0  
+       2          NaN    NaN    NaN     1.0  NaN         6.0  
+14028  1          NaN    NaN    1.0     2.0  NaN         2.0  
+       2          NaN    NaN    2.0     NaN  NaN         5.0  
+       3          NaN    1.0    NaN     1.0  NaN         5.0  
+14031  1          NaN    NaN    NaN     6.0  NaN         3.0  
+       2          NaN    NaN    1.0     5.0  NaN         3.0  
+14033  1          NaN    NaN    NaN     1.0  NaN         NaN  
+       2          NaN    NaN    1.0     NaN  NaN         NaN  
+       3          NaN    NaN    NaN     1.0  NaN         NaN  
+       4          NaN    NaN    NaN     1.0  NaN         NaN  
+14192  1          NaN    1.0    NaN     6.0  NaN         4.0  
+       2          NaN    NaN    NaN     7.0  NaN         4.0  
+14193  1          1.0    NaN    NaN     1.0  NaN         1.0  
+       2          NaN    1.0    NaN     1.0  NaN         1.0  
+       3          NaN    1.0    NaN     1.0  NaN         2.0  
+14194  1          1.0    1.0    NaN     2.0  NaN         3.0  
+       2          1.0    NaN    NaN     2.0  NaN         3.0  
+       3          NaN    1.0    NaN     2.0  NaN         3.0  
+14208  1          NaN    NaN    1.0     1.0  NaN         5.0  
+       2          1.0    1.0    NaN     1.0  NaN         5.0  
+       3          NaN    1.0    NaN     1.0  NaN         6.0  
+       4          NaN    NaN    NaN     1.0  NaN         6.0  
+       5          NaN    NaN    NaN     1.0  NaN         6.0  
+14292  1          NaN    NaN    1.0     3.0  NaN         1.0  
+       2          NaN    1.0    NaN     2.0  NaN         2.0  
+       3          NaN    NaN    NaN     2.0  NaN         3.0  
+       4          NaN    NaN    NaN     2.0  NaN         3.0  
+       5          NaN    NaN    NaN     1.0  NaN         4.0  
+       6          NaN    NaN    NaN     1.0  NaN         4.0  
+       7          NaN    NaN    NaN     1.0  NaN         4.0  
+14293  1          NaN    NaN    NaN     1.0  NaN         NaN  
+       2          NaN    NaN    NaN     1.0  NaN         NaN  
+       3          NaN    NaN    NaN     NaN  NaN         1.0  
+       4          NaN    NaN    NaN     1.0  NaN         1.0  
+14294  1          1.0    NaN    NaN     1.0  NaN         7.0  
+       2          NaN    NaN    NaN     1.0  NaN         7.0  
+       3          NaN    NaN    NaN     1.0  NaN         7.0  
+       4          NaN    1.0    NaN     1.0  NaN         7.0  
+14391  1          NaN    NaN    NaN     1.0  NaN         NaN  
+       2          NaN    NaN    NaN     1.0  NaN         NaN  
+       3          NaN    NaN    NaN     1.0  NaN         NaN  
+14392  1          NaN    NaN    NaN     3.0  NaN         2.0  
+       2          NaN    NaN    NaN     2.0  NaN         3.0  
+       3          NaN    NaN    NaN     2.0  NaN         3.0  
+14393  1          1.0    3.0    1.0     4.0  NaN         9.0  
+       2          2.0    NaN    1.0     7.0  NaN         9.0  
+       3          NaN    NaN    2.0     6.0  NaN        11.0  
+       4          NaN    NaN    2.0     3.0  NaN        13.0  
+       5          NaN    1.0    2.0     5.0  NaN        13.0  
+14394  1          1.0    NaN    NaN     2.0  NaN         7.0  
+       2          NaN    NaN    NaN     3.0  NaN         8.0  
+14706  1          NaN    NaN    NaN     2.0  NaN         1.0  
+       2          NaN    NaN    NaN     2.0  NaN         1.0  
+14707  1          NaN    NaN    NaN     NaN  NaN         1.0  
+       2          NaN    NaN    NaN     NaN  NaN         1.0  
+       3          NaN    NaN    NaN     NaN  NaN         1.0  
+       4          NaN    NaN    NaN     NaN  NaN         1.0  
+       5          NaN    NaN    NaN     NaN  NaN         1.0  
+14708  1          NaN    NaN    NaN     3.0  NaN         2.0  
+       2          NaN    NaN    NaN     3.0  NaN         2.0  
+       3          NaN    NaN    NaN     3.0  NaN         2.0  
+       4          NaN    NaN    NaN     3.0  NaN         2.0  
+       5          NaN    NaN    NaN     3.0  NaN         2.0  
+       6          1.0    NaN    1.0     1.0  NaN         2.0  
+       7          NaN    NaN    NaN     2.0  NaN         3.0  
+14712  1          NaN    NaN    NaN     1.0  NaN         4.0  
+       2          NaN    NaN    NaN     1.0  NaN         4.0  
+       3          NaN    NaN    NaN     1.0  NaN         4.0  
+       4          NaN    NaN    NaN     NaN  NaN         5.0  
+       5          NaN    NaN    NaN     NaN  NaN         5.0  
+       6          NaN    NaN    NaN     NaN  NaN         5.0  
+Done...
