@@ -5,6 +5,21 @@ import pandas as pd
 import xlsxwriter
 from pandas.io.json import json_normalize
 
+"""
+REFERENCES
+http://stackoverflow.com/questions/36723625/pandas-sql-case-statement-equivalent
+http://stackoverflow.com/questions/16349389/grouping-data-by-value-ranges
+http://stackoverflow.com/questions/25748683/python-pandas-sum-dataframe-rows-for-given-columns
+http://stackoverflow.com/questions/15262134/apply-different-functions-to-different-items-in-group-object-python-pandas
+#df['totals'] = df.sum(axis=1) totals per column
+http://stackoverflow.com/questions/30482071/how-to-calculate-mean-values-grouped-on-another-column-in-pandas
+http://pandas.pydata.org/pandas-docs/version/0.18.1/generated/pandas.io.json.json_normalize.html
+http://chrisalbon.com/python/pandas_apply_operations_to_groups.html
+http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/
+http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/
+sort by field: f.sort_values(by=["c1","c2"], ascending=[False, True])
+"""
+
 def videoCSVToJSON(ifile):
 	videos = []
 	inputFile = codecs.open(ifile, 'r', encoding = "utf-8")
@@ -36,6 +51,22 @@ def getAllStudentBehavior(ifile1, ifile2):
 	return all_student_behavior
 
 
+def getMissingVideoVocab(ifile, ifile2):
+	final = []
+
+	with open(ifile) as data_file:
+		existing_video_data = json.load(data_file)
+
+	with open(ifile2) as data_file:
+		new_video_data = json.load(data_file)
+
+	for x, y in zip(existing_video_data, new_video_data):
+		if x['postId'] == y['postId']:
+			x['wordList'] = y['wordList']
+			final.append(x)
+	return final
+
+
 def getVideoData(ifile):
 	with open(ifile) as data_file:
 		video_data = json.load(data_file)
@@ -64,40 +95,46 @@ def prepDataForAnalysisWithVideoSections(studentBehavior, videoData):
 
 def prepDataForAnalysisWithoutVideoSections(studentBehavior, videoData):
 	final = []
-	count = 0
-	vocabCount = 0
-	listenScore = []
 
 	for s in studentBehavior:
 		for sb in s:
 			for vid in sb['chosenVideo']:
 				vocabCount = 0
-				count = 0
-				listenScore = []
+				video_word_count = 0
+				count_incomplete = 0
+				all_scores = []
+				actual_grade = []
 				for v in videoData:
 					if int(vid) == int(v['postId']):
-						for w in v['wordList'].split(','):
-							count += 1
+						for w in v['wordList']:
+							video_word_count += 1
 				for ls in sb['listenScore']:
 					if int(ls['postId']) == int(vid):
-						listenScore.append(ls)
+						all_scores.append(int(ls['score']))
+				for score in all_scores:
+					if score >= 0:
+						actual_grade.append(score)
+					elif score == -1:
+						count_incomplete += 1
 				for vl in sb['vocabularyList']:
 					if int(vid) ==  int(vl['postId']):
 						vocabCount += 1
-
+                
 				result = {
 				'postId': vid,
-				'listenScore': listenScore,
+				'avg_score': np.mean(actual_grade) if len(actual_grade) > 0 else 'NaN', #avg scores that student has a grade for to see performance so far
+				'avg_incomplete': (float(count_incomplete)/float(len(all_scores))) if len(all_scores) > 0 else 'NaN', #avg incomplete sections (count(-1)/total scores)
 				'user': int(sb['memberId']),
-				'vocab_list_count': vocabCount,
-				'video_vocab_count': count - 1
+				'avg_words_saved': (float(vocabCount) / float(video_word_count)), #proportion of num of words saved from entire video vocab
+				'video_vocab_count': video_word_count
 				}
+				#can add max score, min, # of scores which would give the # of video sections
 				final.append(result)
 			
 	return final
 
 
-def loadExistingPrepData(ifile, ifile2):
+def loadExistingPreppedData(ifile, ifile2):
 	with open(ifile) as data_file:
 		prep1 = json.load(data_file)
 
@@ -126,23 +163,7 @@ def listenScoreRange(dl):
 	else: return 'None'
 
 
-def wordCountRange(dl):
-	if dl == 0: return '0'
-	elif 1 <= dl <= 30: return '1-30'
-	elif 30 < dl <= 60: return '31-60'
-	else: return 'None'
-
-
 def listenScoreStatsByPostID(preppedDataWithSection):
-	"""
-	DESCRIPTION: For each video (PostID), generate frequency listen scores based on score range
-	REFERENCES:
-	http://stackoverflow.com/questions/36723625/pandas-sql-case-statement-equivalent
-	http://stackoverflow.com/questions/16349389/grouping-data-by-value-ranges
-	http://stackoverflow.com/questions/25748683/python-pandas-sum-dataframe-rows-for-given-columns
-	http://stackoverflow.com/questions/15262134/apply-different-functions-to-different-items-in-group-object-python-pandas
-	#df['totals'] = df.sum(axis=1) totals per column
-	"""
 	df = pd.DataFrame.from_records(preppedDataWithSection)
 	df['score_range'] = df['score'].map(listenScoreRange)
 	results = df.groupby(['postId', 'score_range']).size()
@@ -157,24 +178,13 @@ def listenScoreStatsByPostIDAndSection(preppedDataWithSection):
 
 
 def vocabStatsByPostIDAndScoreRange(preppedDataWithoutSection):
-	"""
-	http://stackoverflow.com/questions/30482071/how-to-calculate-mean-values-grouped-on-another-column-in-pandas
-	http://pandas.pydata.org/pandas-docs/version/0.18.1/generated/pandas.io.json.json_normalize.html
-	http://chrisalbon.com/python/pandas_apply_operations_to_groups.html
-	"""
-	results = json_normalize(preppedDataWithoutSection, 'listenScore', ['user', 'vocab_list_count', 'video_vocab_count'])
-	results['score_range'] = results['score'].mean().map(listenScoreRange)
-	#results['avg_words_saved'] = ((results['vocab_list_count'] / results['video_vocab_count']) * 100).map(wordCountRange)
-	grpResults = results.groupby(['postId', 'score_range'])['vocab_list_count'].size()
-	return grpResults.unstack()
-
+	print 'to be implemented'
+	
 
 def listenScoreStatsbyUser():
 	print 'to be implemented'
-	#results = json_normalize(preppedDataWithoutSection, 'listenScore', ['user', 'vocab_list_count', 'video_vocab_count'])
-	#return results.groupby(['user','postId'], as_index = False)['score'].mean()
 
-   
+
 def main(argv):
 	try:
 		ifile = ''
@@ -202,6 +212,7 @@ def main(argv):
 		python main.py --ifile files/studentBehaviorInfo_1.json --ifile2 files/studentBehaviorInfo_2.json --ifile3 files/videoDataInfo.json  > stats/prepped.json
 		"""
 		#print "Prepping.."
+		#print json.dumps(getMissingVideoVocab(ifile, ifile2), indent = 4)
 		#student_data = getAllStudentBehavior(ifile, ifile2)
 		#video_data = getVideoData(ifile3)
 
@@ -213,12 +224,12 @@ def main(argv):
 
 
 		"""
-		LOAD EXISTING PREP DATA
+		LOAD EXISTING PREPPED DATA
 		:ifile: prepped without section
 		:ifile2: prepped with section
 		"""
 		print "Loading data.."
-		loaded = loadExistingPrepData(ifile, ifile2)
+		loaded = loadExistingPreppedData(ifile, ifile2)
 
 
 		"""
@@ -231,8 +242,8 @@ def main(argv):
 		#print "Generating listenScoreStatsByPostIDAndSection.."
 		#print listenScoreStatsByPostIDAndSection(loaded[1])
 
-		print "Generating vocabStatsByPostIDAndScoreRange.."
-		print vocabStatsByPostIDAndScoreRange(loaded[0])
+		#print "Generating vocabStatsByPostIDAndScoreRange.."
+		#print vocabStatsByPostIDAndScoreRange(loaded[0])
 
 	except arg:
 		print 'Arguments parser error ' + arg
