@@ -177,8 +177,12 @@ def listenScoreStatsByPostIDAndSection(preppedDataWithSection):
 	return results.unstack()
 
 
-def vocabStatsByPostIDAndScoreRange(preppedDataWithoutSection):
-	print 'to be implemented'
+def vocabStatsByPostIDAndAvgScoreRange(preppedDataWithoutSection):
+	df = pd.DataFrame.from_records(preppedDataWithoutSection)
+	df['avg_score_range'] = df['avg_score'].map(listenScoreRange)
+	df['avg_words_saved_perc'] = df['avg_words_saved']*100
+	results = df.groupby(['postId','user', 'avg_score_range'])['avg_words_saved_perc'].max()
+	return results.unstack()
 	
 
 def listenScoreStatsbyUser():
@@ -242,8 +246,8 @@ def main(argv):
 		#print "Generating listenScoreStatsByPostIDAndSection.."
 		#print listenScoreStatsByPostIDAndSection(loaded[1])
 
-		#print "Generating vocabStatsByPostIDAndScoreRange.."
-		#print vocabStatsByPostIDAndScoreRange(loaded[0])
+		print "Generating vocabStatsByPostIDAndAvgScoreRange.."
+		print vocabStatsByPostIDAndAvgScoreRange(loaded[0])
 
 	except arg:
 		print 'Arguments parser error ' + arg
