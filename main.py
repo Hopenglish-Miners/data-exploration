@@ -2,7 +2,6 @@ import json
 import sys,getopt,codecs
 import numpy as np
 import pandas as pd
-import xlsxwriter
 from pandas.io.json import json_normalize
 
 """
@@ -18,6 +17,8 @@ http://chrisalbon.com/python/pandas_apply_operations_to_groups.html
 http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/
 http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/
 sort by field: f.sort_values(by=["c1","c2"], ascending=[False, True])
+http://stackoverflow.com/questions/23415500/pandas-plotting-a-stacked-bar-chart
+http://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/
 """
 
 def videoCSVToJSON(ifile):
@@ -39,11 +40,13 @@ def videoCSVToJSON(ifile):
 	return videos[1:]
 
 
-def getAllStudentBehavior(ifile1, ifile2):
+def getAllStudentBehavior(ifile1, ifile2 = ''):
 	loadfile = []
 	all_student_behavior = []
 	loadfile.append(ifile1)
-	loadfile.append(ifile2)
+
+	if ifile2 != '':
+		loadfile.append(ifile2)
 
 	for file in loadfile:
 		with open(file) as data_file:
@@ -119,13 +122,14 @@ def prepDataForAnalysisWithoutVideoSections(studentBehavior, videoData):
 				for vl in sb['vocabularyList']:
 					if int(vid) ==  int(vl['postId']):
 						vocabCount += 1
-                
+				
 				result = {
 				'postId': vid,
 				'avg_score': np.mean(actual_grade) if len(actual_grade) > 0 else 'NaN', #avg scores that student has a grade for to see performance so far
 				'avg_incomplete': (float(count_incomplete)/float(len(all_scores))) if len(all_scores) > 0 else 'NaN', #avg incomplete sections (count(-1)/total scores)
 				'user': int(sb['memberId']),
 				'avg_words_saved': (float(vocabCount) / float(video_word_count)), #proportion of num of words saved from entire video vocab
+				'num_words_saved': vocabCount,
 				'video_vocab_count': video_word_count
 				}
 				#can add max score, min, # of scores which would give the # of video sections
@@ -177,16 +181,76 @@ def listenScoreStatsByPostIDAndSection(preppedDataWithSection):
 	return results.unstack()
 
 
+def listenScoreStatsByUserAndPostIDAndSection(preppedDataWithSection):
+	df = pd.DataFrame.from_records(preppedDataWithSection)
+	df['score_range'] = df['score'].map(listenScoreRange)
+	results = df.groupby(['user','postId', 'section', 'score_range']).size()
+	return results.unstack()
+
+
 def vocabStatsByPostIDAndAvgScoreRange(preppedDataWithoutSection):
 	df = pd.DataFrame.from_records(preppedDataWithoutSection)
 	df['avg_score_range'] = df['avg_score'].map(listenScoreRange)
 	df['avg_words_saved_perc'] = df['avg_words_saved']*100
 	results = df.groupby(['postId','user', 'avg_score_range'])['avg_words_saved_perc'].max()
 	return results.unstack()
-	
 
-def listenScoreStatsbyUser():
-	print 'to be implemented'
+
+def vocabSavedRange(dl):
+	if dl == 0: return '0'
+	elif 0 < dl < 1: return '0-1'
+	elif 1 <= dl <= 10: return '1-10'
+	elif 10 < dl <= 20: return '11-20'
+	elif 20 < dl <= 40: return '21-40'
+	elif 40 < dl <= 60: return '41-60'
+	elif 60 < dl <= 80: return '61-80'
+	elif 80 < dl <= 100: return '81-100'
+	elif dl > 100: return '> 100'
+	else: return 'None'
+
+
+def numOfUsersbyAvgDictionarySize(preppedDataWithoutSection):
+	"""
+	More than half of students save an avg of 1-10% of words in their dictionaries
+	An avg. video vocab count is 239, so between 10 to 25 words is saved from video on average by most users
+	"""
+	df = pd.DataFrame.from_records(preppedDataWithoutSection) #read_json
+	df['avg_words_saved_perc'] = df['avg_words_saved'] * 100
+	df = df.groupby(['user']).mean() #avg overall words saved by user, get overall avg of individual averages per video
+	df['user_group'] = df['avg_words_saved_perc'].map(vocabSavedRange)
+	results = df.groupby(['user_group']).size()
+	return df[['avg_words_saved_perc', 'user_group']]
+
+	
+def numOfUsersByScoreRange(preppedDataWithoutSection):
+	"""
+	e.g. avg. words saved by users if their avg. score is between 80 and 100
+	"""
+	df = pd.DataFrame.from_records(preppedDataWithoutSection) #read_json in jupyter
+	df = df.groupby(['user'])['avg_score'].mean()
+	df['user_group'] = df['avg_words_saved_perc'].map(vocabSavedRange)
+	results = df.groupby(['user_group']).size()
+	return df[['avg_words_saved_perc', 'user_group']]
+
+
+def quickStats(preppedDataWithoutSection):
+	"""
+	avg. of 237 words per video
+	"""
+	df = pd.DataFrame.from_records(preppedDataWithoutSection)
+	results = df['video_vocab_count'].mean()
+	return results
+
+
+def jaccard(a,b):
+    a=a.split()
+    b=a.split()
+    union = list(set(a+b))
+    intersection = list(set(a) - (set(a)-set(b)))
+    print "Union - %s" % union
+    print "Intersection - %s" % intersection
+    jaccard_coeff = float(len(intersection))/len(union)
+    print "Jaccard Coefficient is = %f " % jaccard_coeff
 
 
 def main(argv):
@@ -214,10 +278,11 @@ def main(argv):
 		"""
 		PREP DATA
 		python main.py --ifile files/studentBehaviorInfo_1.json --ifile2 files/studentBehaviorInfo_2.json --ifile3 files/videoDataInfo.json  > stats/prepped.json
+		python main.py --ifile files/studentBehaviorInfoOver40Class_1213.json --ifile3 files/videoDataInfoNew.json  > data-format/prepped-w-section.json
 		"""
 		#print "Prepping.."
 		#print json.dumps(getMissingVideoVocab(ifile, ifile2), indent = 4)
-		#student_data = getAllStudentBehavior(ifile, ifile2)
+		#student_data = getAllStudentBehavior(ifile)
 		#video_data = getVideoData(ifile3)
 
 		#prepped_with_vid_sections = prepDataForAnalysisWithVideoSections(student_data, video_data)
@@ -232,7 +297,7 @@ def main(argv):
 		:ifile: prepped without section
 		:ifile2: prepped with section
 		"""
-		print "Loading data.."
+		#print "Loading data.."
 		loaded = loadExistingPreppedData(ifile, ifile2)
 
 
@@ -246,8 +311,13 @@ def main(argv):
 		#print "Generating listenScoreStatsByPostIDAndSection.."
 		#print listenScoreStatsByPostIDAndSection(loaded[1])
 
-		print "Generating vocabStatsByPostIDAndAvgScoreRange.."
-		print vocabStatsByPostIDAndAvgScoreRange(loaded[0])
+		#print "Generating vocabStatsByPostIDAndAvgScoreRange.."
+		#print vocabStatsByPostIDAndAvgScoreRange(loaded[0])
+
+		#print "Generating numOfUsersbyAvgDictionarySize.."
+		#print numOfUsersbyAvgDictionarySize(loaded[0])
+
+		#print quickStats(loaded[0])
 
 	except arg:
 		print 'Arguments parser error ' + arg

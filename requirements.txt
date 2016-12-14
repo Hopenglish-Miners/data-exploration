@@ -6,4 +6,3 @@ jupyter
 pandas
 sympy
 nose
-XlsxWriter
