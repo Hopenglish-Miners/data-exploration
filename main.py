@@ -224,7 +224,6 @@ def numOfUsersbyAvgDictionarySize(preppedDataWithoutSection):
 	
 def numOfUsersByScoreRange(preppedDataWithoutSection):
 	"""
-	e.g. avg. words saved by users if their avg. score is between 80 and 100
 	"""
 	df = pd.DataFrame.from_records(preppedDataWithoutSection) #read_json in jupyter
 	df = df.groupby(['user'])['avg_score'].mean()
